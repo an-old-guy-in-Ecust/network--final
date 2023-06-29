@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BYOL_ResNet18_Yiqiao.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="data620004finalproject">DATA620004_Final_Project</h1>
+<h1 id="yiqiao-jin-22210980045">Yiqiao Jin, 22210980045</h1>
+<ul>
+<li>BYOL based on Resnet18 at https://github.com/JDmunkJoey/BYOL_Resnet18</li>
+<li>Resnet18 at https://github.com/JDmunkJoey/Resnet18_Cifar10</li>
+</ul>
+<h1 id="byol-based-on-resnet18---implementation">BYOL based on Resnet18 - Implementation</h1>
+<p>PyTorch implementation of &quot;Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning&quot; by J.B. Grill et al.</p>
+<p><a href="https://arxiv.org/abs/2006.07733">Link to paper</a></p>
+<p>This repository includes a practical implementation of BYOL with:</p>
+<ul>
+<li>Benchmarks on vision datasets (<strong>CIFAR-10</strong> for train &amp; val)</li>
+<li>CIFAR-10 could be downloaed at https://drive.google.com/file/d/1oZiZIZWROOynincRSt7c-MRXF_poVJe1/view?usp=sharing</li>
+<li>Support for PyTorch <strong>&lt;= 1.5.0</strong></li>
+<li>Optimizer: Adam</li>
+<li>Pre-training epochs: 50</li>
+<li>Batch size: 192</li>
+<li>Learning rate: 3e-4</li>
+<li>Checkpoint epochs: 5</li>
+<li>Experimental environment：
+Miniconda: conda3
+Python: 3.8(ubuntu18.04)
+Cuda: 11.1
+GPU: RTX 3090(24GB) * 1
+CPU: 15 vCPU Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz
+RAM: 80GB</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<h3 id="pre-training">Pre-training</h3>
+<p>To run pre-training using BYOL with the default arguments (1 node, 1 GPU), use:</p>
+<pre class="hljs"><code><div>python3 main.py
+</div></code></pre>
+<p>Which is equivalent to:</p>
+<pre class="hljs"><code><div>python3 main.py --nodes 1 --gpus 1
+</div></code></pre>
+<p>The pre-trained models are saved every <em>n</em> epochs in *.pt files, the final model being <code>model-final.pt</code></p>
+<p>My pre-trained model 'yiqiao-byol-model-final.pt' could be downloaded at https://drive.google.com/file/d/11Sq2ynFkBFeh7H7E_B8G0FWQ-TUqRIQr/view?usp=sharing</p>
+<h3 id="finetuning--linear-classification-protocol">Finetuning &amp; Linear classification protocol</h3>
+<p>Finetuning a model ('linear evaluation') on top of the pre-trained, frozen ResNet model can be done using:</p>
+<pre class="hljs"><code><div>python3 logistic_regression.py --model_path=./model-final.pt
+</div></code></pre>
+<p>With <code>model_final.pt</code> being file containing the pre-trained network from the pre-training stage.</p>
+<h2 id="arguments">Arguments</h2>
+<pre class="hljs"><code><div>--image_size, default=224, &quot;Image size&quot;
+--learning_rate, default=3e-4, &quot;Initial learning rate.&quot;
+--batch_size, default=42, &quot;Batch size for training.&quot;
+--num_epochs, default=100, &quot;Number of epochs to train for.&quot;
+--checkpoint_epochs, default=10, &quot;Number of epochs between checkpoints/summaries.&quot;
+--dataset_dir, default=&quot;./datasets&quot;, &quot;Directory where dataset is stored.&quot;,
+--num_workers, default=8, &quot;Number of data loading workers (caution with nodes!)&quot;
+--nodes, default=1, &quot;Number of nodes&quot;
+--gpus, default=1, &quot;number of gpus per node&quot;
+--nr, default=0, &quot;ranking within the nodes&quot;
+</div></code></pre>
+<h2 id="results">Results</h2>
+<h3 id="training">Training</h3>
+<h4 id="loss">loss</h4>
+<p><img src="BYOL-master/../BYOL-ResNet18/figs/accuracy of train.png" alt=""></p>
+<h4 id="accuracy">Accuracy</h4>
+<p><img src="BYOL-master/../BYOL-ResNet18/figs/accuracy of train.png" alt=""></p>
+<h3 id="linear-classification-protocol-evaluation">Linear classification protocol (evaluation)</h3>
+<h4 id="loss">loss</h4>
+<p><img src="BYOL-master/../BYOL-ResNet18/figs/loss of test.png" alt=""></p>
+<h4 id="accuracy">Accuracy</h4>
+<p><img src="BYOL-master/../BYOL-ResNet18/figs/accuracy of test.png" alt=""></p>
+<h4 id="final-testing-performance">final testing performance</h4>
+<p>The performance (accuracy) of testing the fine-tuned model after throwing away fc layer is 79.96%.</p>
+<h1 id="resnet18---implementation">Resnet18  - Implementation</h1>
+<p>PyTorch implementation of Resnet18 without pre-training model.
+This repository includes a practical implementation of Resnet18 with:</p>
+<ul>
+<li>Benchmarks on vision datasets (<strong>CIFAR-10</strong> for train &amp; val)</li>
+<li>CIFAR-10 could be downloaed at https://drive.google.com/file/d/1oZiZIZWROOynincRSt7c-MRXF_poVJe1/view?usp=sharing</li>
+<li>Support for PyTorch <strong>&lt;= 1.5.0</strong></li>
+<li>Optimizer: Adam</li>
+<li>Pre-training epochs: 50</li>
+<li>Batch size: 128</li>
+<li>Learning rate: 0.1</li>
+<li>Experimental environment：
+Miniconda: conda3
+Python: 3.8(ubuntu18.04)
+Cuda: 11.1
+GPU: RTX 4090(24GB) * 1
+CPU: 15 vCPU Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz
+RAM: 80GB</li>
+</ul>
+<h2 id="augmentation">Augmentation</h2>
+<h3 id="random-flip">Random flip</h3>
+<pre class="hljs"><code><div>transforms.RandomHorizontalFlip()
+</div></code></pre>
+<h3 id="random-crop-after-filling">Random crop after filling</h3>
+<p>We just fill an image of size '32x32' to '40x40' and then crop it randomly to '32x32'.</p>
+<pre class="hljs"><code><div>transforms.RandomCrop(<span class="hljs-number">32</span>, padding=<span class="hljs-number">4</span>)
+</div></code></pre>
+<h3 id="cutout-operation">Cutout operation</h3>
+<p>The Cutout operation will randomly block blocks of several sizes of the picture, and the sizes and blocks can be set according to your needs.</p>
+<pre class="hljs"><code><div>Cutout(n_holes=<span class="hljs-number">1</span>, length=<span class="hljs-number">16</span>)
+</div></code></pre>
+<h2 id="modification">Modification</h2>
+<p>Considering that the picture size of the 'CIFAR10' dataset is too small, the '7x7' downsampling convolution and pooling operation of the 'ResNet18' network are prone to lose some information, so in the experiment, we removed the '7x7' downsampling layer and the maximum pooling layer, and replaced it with a '3x3' downsampling convolution. At the same time, the step size and fill size of the convolutional layer are reduced, so that the information of the original image can be preserved as much as possible.</p>
+<h2 id="strategy">Strategy</h2>
+<p>In the training of the model, the strategy we adopt is: set the initial learning rate to 0.1, every time the loss of the verification set after 10 epoch training does not decrease, the learning rate becomes the original 0.5, and a total of 50 epochs are trained. In training, our batch_size is 128 and the optimizer is' SGD ':</p>
+<pre class="hljs"><code><div>optimizer = optim.SGD(model.parameters(), lr=lr, momentum=<span class="hljs-number">0.9</span>, weight_decay=<span class="hljs-number">5e-4</span>)
+</div></code></pre>
+<h2 id="usage">Usage</h2>
+<h3 id="train">Train</h3>
+<p>To run pre-training using BYOL with the default arguments (1 node, 1 GPU), use:</p>
+<pre class="hljs"><code><div>python train.py
+</div></code></pre>
+<p>My pre-trained model 'yiqiao-resnet18-model-final.pt' could be downloaded at https://drive.google.com/file/d/11t7SGAYaujr4HszhxtVhMxIRo8u2nZtG/view?usp=sharing</p>
+<h3 id="test">Test</h3>
+<pre class="hljs"><code><div>python test.py
+</div></code></pre>
+<h2 id="results">Results</h2>
+<h3 id="train">Train</h3>
+<h4 id="loss">loss</h4>
+<p><img src="ResNet18-Cifar10/../ResNet18-Cifar10/figs/loss of train.png" alt=""></p>
+<h4 id="accuracy">Accuracy</h4>
+<p><img src="ResNet18-Cifar10/../ResNet18-Cifar10/figs/accuracy of train.png" alt=""></p>
+<h3 id="test">Test</h3>
+<h4 id="loss">loss</h4>
+<p><img src="ResNet18-Cifar10/../ResNet18-Cifar10/figs/loss of test.png" alt=""></p>
+<h4 id="accuracy">Accuracy</h4>
+<p><img src="ResNet18-Cifar10/../ResNet18-Cifar10/figs/accuracy of test.png" alt=""></p>
+<h4 id="final-testing-performance">Final testing performance</h4>
+<p>The final performance (accuracy) of testing the trained Resnet18 model is 88.94%.</p>
+
+</body>
+</html>

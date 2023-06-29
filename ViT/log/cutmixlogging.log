@@ -1,0 +1,2808 @@
+Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Begin Training Epoch 1
+Epoch [1] [390/391]	Time 0.000 (0.005)	Loss 4.1363	Prec@1 15.000 (7.984)	Prec@5 32.500 (24.348)
+Begin Validation @ Epoch 1
+Epoch Summary: 
+	Epoch Accuracy: 15.22
+	Best Accuracy: 15.22
+Begin Training Epoch 2
+Epoch [2] [390/391]	Time 0.003 (0.006)	Loss 3.7814	Prec@1 20.000 (13.962)	Prec@5 48.750 (36.090)
+Begin Validation @ Epoch 2
+Epoch Summary: 
+	Epoch Accuracy: 19.87
+	Best Accuracy: 19.87
+Begin Training Epoch 3
+Epoch [3] [390/391]	Time 0.002 (0.005)	Loss 3.5957	Prec@1 31.250 (17.604)	Prec@5 60.000 (41.848)
+Begin Validation @ Epoch 3
+Epoch Summary: 
+	Epoch Accuracy: 23.63
+	Best Accuracy: 23.63
+Begin Training Epoch 4
+Epoch [4] [390/391]	Time 0.001 (0.005)	Loss 3.3648	Prec@1 8.750 (21.758)	Prec@5 21.250 (47.720)
+Begin Validation @ Epoch 4
+Epoch Summary: 
+	Epoch Accuracy: 25.75
+	Best Accuracy: 25.75
+Begin Training Epoch 5
+Epoch [5] [390/391]	Time 0.002 (0.004)	Loss 3.2381	Prec@1 15.000 (24.242)	Prec@5 38.750 (51.662)
+Begin Validation @ Epoch 5
+Epoch Summary: 
+	Epoch Accuracy: 28.04
+	Best Accuracy: 28.04
+Begin Training Epoch 6
+Epoch [6] [390/391]	Time 0.002 (0.004)	Loss 3.2368	Prec@1 25.000 (25.594)	Prec@5 47.500 (52.718)
+Begin Validation @ Epoch 6
+Epoch Summary: 
+	Epoch Accuracy: 29.08
+	Best Accuracy: 29.08
+Begin Training Epoch 7
+Epoch [7] [390/391]	Time 0.002 (0.005)	Loss 2.9988	Prec@1 37.500 (29.914)	Prec@5 73.750 (57.910)
+Begin Validation @ Epoch 7
+Epoch Summary: 
+	Epoch Accuracy: 31.05
+	Best Accuracy: 31.05
+Begin Training Epoch 8
+Epoch [8] [390/391]	Time 0.002 (0.005)	Loss 2.9011	Prec@1 7.500 (32.504)	Prec@5 28.750 (60.820)
+Begin Validation @ Epoch 8
+Epoch Summary: 
+	Epoch Accuracy: 31.55
+	Best Accuracy: 31.55
+Begin Training Epoch 9
+Epoch [9] [390/391]	Time 0.002 (0.004)	Loss 2.7888	Prec@1 50.000 (35.632)	Prec@5 76.250 (64.330)
+Begin Validation @ Epoch 9
+Epoch Summary: 
+	Epoch Accuracy: 32.54
+	Best Accuracy: 32.54
+Begin Training Epoch 10
+Epoch [10] [390/391]	Time 0.002 (0.005)	Loss 2.6288	Prec@1 56.250 (39.560)	Prec@5 85.000 (67.184)
+Begin Validation @ Epoch 10
+Epoch Summary: 
+	Epoch Accuracy: 33.02
+	Best Accuracy: 33.02
+Begin Training Epoch 11
+Epoch [11] [390/391]	Time 0.002 (0.004)	Loss 2.5312	Prec@1 22.500 (42.644)	Prec@5 40.000 (68.872)
+Begin Validation @ Epoch 11
+Epoch Summary: 
+	Epoch Accuracy: 33.84
+	Best Accuracy: 33.84
+Begin Training Epoch 12
+Epoch [12] [390/391]	Time 0.002 (0.004)	Loss 2.3665	Prec@1 65.000 (47.142)	Prec@5 83.750 (71.980)
+Begin Validation @ Epoch 12
+Epoch Summary: 
+	Epoch Accuracy: 34.65
+	Best Accuracy: 34.65
+Begin Training Epoch 13
+Epoch [13] [390/391]	Time 0.002 (0.005)	Loss 2.2043	Prec@1 63.750 (51.874)	Prec@5 90.000 (75.306)
+Begin Validation @ Epoch 13
+Epoch Summary: 
+	Epoch Accuracy: 34.0
+	Best Accuracy: 34.65
+Begin Training Epoch 14
+Epoch [14] [390/391]	Time 0.002 (0.005)	Loss 2.0311	Prec@1 77.500 (56.544)	Prec@5 95.000 (77.584)
+Begin Validation @ Epoch 14
+Epoch Summary: 
+	Epoch Accuracy: 34.51
+	Best Accuracy: 34.65
+Begin Training Epoch 15
+Epoch [15] [390/391]	Time 0.002 (0.006)	Loss 1.7966	Prec@1 78.750 (63.004)	Prec@5 97.500 (80.966)
+Begin Validation @ Epoch 15
+Epoch Summary: 
+	Epoch Accuracy: 34.7
+	Best Accuracy: 34.7
+Begin Training Epoch 16
+Epoch [16] [390/391]	Time 0.002 (0.004)	Loss 1.6513	Prec@1 90.000 (66.482)	Prec@5 100.000 (82.630)
+Begin Validation @ Epoch 16
+Epoch Summary: 
+	Epoch Accuracy: 34.22
+	Best Accuracy: 34.7
+Begin Training Epoch 17
+Epoch [17] [390/391]	Time 0.001 (0.003)	Loss 1.6626	Prec@1 93.750 (66.956)	Prec@5 98.750 (82.620)
+Begin Validation @ Epoch 17
+Epoch Summary: 
+	Epoch Accuracy: 34.58
+	Best Accuracy: 34.7
+Begin Training Epoch 18
+Epoch [18] [390/391]	Time 0.001 (0.004)	Loss 1.6942	Prec@1 27.500 (66.846)	Prec@5 47.500 (82.030)
+Begin Validation @ Epoch 18
+Epoch Summary: 
+	Epoch Accuracy: 35.01
+	Best Accuracy: 35.01
+Begin Training Epoch 19
+Epoch [19] [390/391]	Time 0.002 (0.004)	Loss 1.5410	Prec@1 96.250 (70.052)	Prec@5 100.000 (82.974)
+Begin Validation @ Epoch 19
+Epoch Summary: 
+	Epoch Accuracy: 34.14
+	Best Accuracy: 35.01
+Begin Training Epoch 20
+Epoch [20] [390/391]	Time 0.002 (0.004)	Loss 1.5094	Prec@1 43.750 (71.076)	Prec@5 77.500 (84.084)
+Begin Validation @ Epoch 20
+Epoch Summary: 
+	Epoch Accuracy: 34.44
+	Best Accuracy: 35.01
+Begin Training Epoch 21
+Epoch [21] [390/391]	Time 0.001 (0.004)	Loss 1.5541	Prec@1 98.750 (69.344)	Prec@5 100.000 (81.810)
+Begin Validation @ Epoch 21
+Epoch Summary: 
+	Epoch Accuracy: 34.58
+	Best Accuracy: 35.01
+Begin Training Epoch 22
+Epoch [22] [390/391]	Time 0.001 (0.004)	Loss 1.4824	Prec@1 51.250 (71.678)	Prec@5 76.250 (84.212)
+Begin Validation @ Epoch 22
+Epoch Summary: 
+	Epoch Accuracy: 34.01
+	Best Accuracy: 35.01
+Begin Training Epoch 23
+Epoch [23] [390/391]	Time 0.002 (0.004)	Loss 1.3890	Prec@1 75.000 (74.018)	Prec@5 92.500 (85.544)
+Begin Validation @ Epoch 23
+Epoch Summary: 
+	Epoch Accuracy: 34.96
+	Best Accuracy: 35.01
+Begin Training Epoch 24
+Epoch [24] [390/391]	Time 0.002 (0.005)	Loss 1.4783	Prec@1 98.750 (71.442)	Prec@5 100.000 (83.112)
+Begin Validation @ Epoch 24
+Epoch Summary: 
+	Epoch Accuracy: 34.38
+	Best Accuracy: 35.01
+Begin Training Epoch 25
+Epoch [25] [390/391]	Time 0.003 (0.005)	Loss 1.4772	Prec@1 30.000 (71.450)	Prec@5 63.750 (83.434)
+Begin Validation @ Epoch 25
+Epoch Summary: 
+	Epoch Accuracy: 34.13
+	Best Accuracy: 35.01
+Begin Training Epoch 26
+Epoch [26] [390/391]	Time 0.002 (0.004)	Loss 1.2576	Prec@1 100.000 (76.172)	Prec@5 100.000 (86.656)
+Begin Validation @ Epoch 26
+Epoch Summary: 
+	Epoch Accuracy: 34.48
+	Best Accuracy: 35.01
+Begin Training Epoch 27
+Epoch [27] [390/391]	Time 0.003 (0.004)	Loss 1.3934	Prec@1 57.500 (73.608)	Prec@5 88.750 (85.080)
+Begin Validation @ Epoch 27
+Epoch Summary: 
+	Epoch Accuracy: 34.33
+	Best Accuracy: 35.01
+Begin Training Epoch 28
+Epoch [28] [390/391]	Time 0.001 (0.004)	Loss 1.3772	Prec@1 18.750 (73.708)	Prec@5 42.500 (85.166)
+Begin Validation @ Epoch 28
+Epoch Summary: 
+	Epoch Accuracy: 34.49
+	Best Accuracy: 35.01
+Begin Training Epoch 29
+Epoch [29] [390/391]	Time 0.002 (0.005)	Loss 1.2903	Prec@1 47.500 (75.950)	Prec@5 82.500 (86.422)
+Begin Validation @ Epoch 29
+Epoch Summary: 
+	Epoch Accuracy: 34.5
+	Best Accuracy: 35.01
+Begin Training Epoch 30
+Epoch [30] [390/391]	Time 0.002 (0.004)	Loss 1.4461	Prec@1 50.000 (73.504)	Prec@5 77.500 (85.344)
+Begin Validation @ Epoch 30
+Epoch Summary: 
+	Epoch Accuracy: 34.59
+	Best Accuracy: 35.01
+Begin Training Epoch 31
+Epoch [31] [390/391]	Time 0.002 (0.004)	Loss 1.1973	Prec@1 45.000 (78.486)	Prec@5 71.250 (87.922)
+Begin Validation @ Epoch 31
+Epoch Summary: 
+	Epoch Accuracy: 35.16
+	Best Accuracy: 35.16
+Begin Training Epoch 32
+Epoch [32] [390/391]	Time 0.001 (0.005)	Loss 1.4477	Prec@1 81.250 (73.512)	Prec@5 95.000 (85.258)
+Begin Validation @ Epoch 32
+Epoch Summary: 
+	Epoch Accuracy: 34.1
+	Best Accuracy: 35.16
+Begin Training Epoch 33
+Epoch [33] [390/391]	Time 0.002 (0.005)	Loss 1.2731	Prec@1 100.000 (76.302)	Prec@5 100.000 (86.298)
+Begin Validation @ Epoch 33
+Epoch Summary: 
+	Epoch Accuracy: 35.16
+	Best Accuracy: 35.16
+Begin Training Epoch 34
+Epoch [34] [390/391]	Time 0.003 (0.006)	Loss 1.2843	Prec@1 100.000 (75.816)	Prec@5 100.000 (85.720)
+Begin Validation @ Epoch 34
+Epoch Summary: 
+	Epoch Accuracy: 34.58
+	Best Accuracy: 35.16
+Begin Training Epoch 35
+Epoch [35] [390/391]	Time 0.002 (0.005)	Loss 1.3151	Prec@1 98.750 (76.138)	Prec@5 100.000 (86.792)
+Begin Validation @ Epoch 35
+Epoch Summary: 
+	Epoch Accuracy: 34.25
+	Best Accuracy: 35.16
+Begin Training Epoch 36
+Epoch [36] [390/391]	Time 0.003 (0.005)	Loss 1.2389	Prec@1 100.000 (77.306)	Prec@5 100.000 (87.348)
+Begin Validation @ Epoch 36
+Epoch Summary: 
+	Epoch Accuracy: 34.87
+	Best Accuracy: 35.16
+Begin Training Epoch 37
+Epoch [37] [390/391]	Time 0.001 (0.005)	Loss 1.3130	Prec@1 100.000 (75.792)	Prec@5 100.000 (86.234)
+Begin Validation @ Epoch 37
+Epoch Summary: 
+	Epoch Accuracy: 35.13
+	Best Accuracy: 35.16
+Begin Training Epoch 38
+Epoch [38] [390/391]	Time 0.002 (0.005)	Loss 1.1954	Prec@1 100.000 (78.202)	Prec@5 100.000 (87.634)
+Begin Validation @ Epoch 38
+Epoch Summary: 
+	Epoch Accuracy: 34.74
+	Best Accuracy: 35.16
+Begin Training Epoch 39
+Epoch [39] [390/391]	Time 0.002 (0.006)	Loss 1.3677	Prec@1 98.750 (74.704)	Prec@5 100.000 (85.214)
+Begin Validation @ Epoch 39
+Epoch Summary: 
+	Epoch Accuracy: 34.02
+	Best Accuracy: 35.16
+Begin Training Epoch 40
+Epoch [40] [390/391]	Time 0.002 (0.006)	Loss 1.1975	Prec@1 47.500 (78.228)	Prec@5 82.500 (87.876)
+Begin Validation @ Epoch 40
+Epoch Summary: 
+	Epoch Accuracy: 34.18
+	Best Accuracy: 35.16
+Begin Training Epoch 41
+Epoch [41] [390/391]	Time 0.002 (0.005)	Loss 1.2833	Prec@1 95.000 (77.444)	Prec@5 100.000 (87.540)
+Begin Validation @ Epoch 41
+Epoch Summary: 
+	Epoch Accuracy: 35.2
+	Best Accuracy: 35.2
+Begin Training Epoch 42
+Epoch [42] [390/391]	Time 0.002 (0.005)	Loss 1.2665	Prec@1 97.500 (77.488)	Prec@5 100.000 (87.944)
+Begin Validation @ Epoch 42
+Epoch Summary: 
+	Epoch Accuracy: 34.51
+	Best Accuracy: 35.2
+Begin Training Epoch 43
+Epoch [43] [390/391]	Time 0.002 (0.004)	Loss 1.3614	Prec@1 33.750 (74.694)	Prec@5 71.250 (84.996)
+Begin Validation @ Epoch 43
+Epoch Summary: 
+	Epoch Accuracy: 34.85
+	Best Accuracy: 35.2
+Begin Training Epoch 44
+Epoch [44] [390/391]	Time 0.002 (0.004)	Loss 1.3177	Prec@1 100.000 (76.870)	Prec@5 100.000 (87.386)
+Begin Validation @ Epoch 44
+Epoch Summary: 
+	Epoch Accuracy: 34.99
+	Best Accuracy: 35.2
+Begin Training Epoch 45
+Epoch [45] [390/391]	Time 0.002 (0.004)	Loss 1.2751	Prec@1 100.000 (77.656)	Prec@5 100.000 (88.330)
+Begin Validation @ Epoch 45
+Epoch Summary: 
+	Epoch Accuracy: 35.16
+	Best Accuracy: 35.2
+Begin Training Epoch 46
+Epoch [46] [390/391]	Time 0.002 (0.005)	Loss 1.1970	Prec@1 16.250 (78.476)	Prec@5 45.000 (87.786)
+Begin Validation @ Epoch 46
+Epoch Summary: 
+	Epoch Accuracy: 34.83
+	Best Accuracy: 35.2
+Begin Training Epoch 47
+Epoch [47] [390/391]	Time 0.002 (0.004)	Loss 1.2210	Prec@1 100.000 (77.710)	Prec@5 100.000 (87.472)
+Begin Validation @ Epoch 47
+Epoch Summary: 
+	Epoch Accuracy: 34.5
+	Best Accuracy: 35.2
+Begin Training Epoch 48
+Epoch [48] [390/391]	Time 0.001 (0.005)	Loss 1.2300	Prec@1 98.750 (78.404)	Prec@5 100.000 (88.388)
+Begin Validation @ Epoch 48
+Epoch Summary: 
+	Epoch Accuracy: 34.7
+	Best Accuracy: 35.2
+Begin Training Epoch 49
+Epoch [49] [390/391]	Time 0.002 (0.005)	Loss 1.2178	Prec@1 40.000 (79.172)	Prec@5 72.500 (88.900)
+Begin Validation @ Epoch 49
+Epoch Summary: 
+	Epoch Accuracy: 35.1
+	Best Accuracy: 35.2
+Begin Training Epoch 50
+Epoch [50] [390/391]	Time 0.004 (0.005)	Loss 1.1982	Prec@1 100.000 (78.464)	Prec@5 100.000 (87.998)
+Begin Validation @ Epoch 50
+Epoch Summary: 
+	Epoch Accuracy: 35.07
+	Best Accuracy: 35.2
+Begin Training Epoch 51
+Epoch [51] [390/391]	Time 0.003 (0.006)	Loss 1.1441	Prec@1 98.750 (80.322)	Prec@5 100.000 (89.222)
+Begin Validation @ Epoch 51
+Epoch Summary: 
+	Epoch Accuracy: 35.02
+	Best Accuracy: 35.2
+Begin Training Epoch 52
+Epoch [52] [390/391]	Time 0.002 (0.007)	Loss 1.3667	Prec@1 18.750 (75.592)	Prec@5 52.500 (86.944)
+Begin Validation @ Epoch 52
+Epoch Summary: 
+	Epoch Accuracy: 34.93
+	Best Accuracy: 35.2
+Begin Training Epoch 53
+Epoch [53] [390/391]	Time 0.002 (0.004)	Loss 1.1145	Prec@1 62.500 (80.784)	Prec@5 86.250 (89.968)
+Begin Validation @ Epoch 53
+Epoch Summary: 
+	Epoch Accuracy: 33.99
+	Best Accuracy: 35.2
+Begin Training Epoch 54
+Epoch [54] [390/391]	Time 0.003 (0.004)	Loss 1.1172	Prec@1 98.750 (81.270)	Prec@5 100.000 (90.540)
+Begin Validation @ Epoch 54
+Epoch Summary: 
+	Epoch Accuracy: 35.34
+	Best Accuracy: 35.34
+Begin Training Epoch 55
+Epoch [55] [390/391]	Time 0.003 (0.005)	Loss 1.2674	Prec@1 96.250 (77.238)	Prec@5 100.000 (87.038)
+Begin Validation @ Epoch 55
+Epoch Summary: 
+	Epoch Accuracy: 35.12
+	Best Accuracy: 35.34
+Begin Training Epoch 56
+Epoch [56] [390/391]	Time 0.002 (0.004)	Loss 1.1851	Prec@1 26.250 (79.174)	Prec@5 56.250 (88.698)
+Begin Validation @ Epoch 56
+Epoch Summary: 
+	Epoch Accuracy: 34.92
+	Best Accuracy: 35.34
+Begin Training Epoch 57
+Epoch [57] [390/391]	Time 0.002 (0.004)	Loss 1.1348	Prec@1 100.000 (80.826)	Prec@5 100.000 (89.636)
+Begin Validation @ Epoch 57
+Epoch Summary: 
+	Epoch Accuracy: 35.32
+	Best Accuracy: 35.34
+Begin Training Epoch 58
+Epoch [58] [390/391]	Time 0.002 (0.004)	Loss 1.1644	Prec@1 27.500 (80.548)	Prec@5 52.500 (90.018)
+Begin Validation @ Epoch 58
+Epoch Summary: 
+	Epoch Accuracy: 34.6
+	Best Accuracy: 35.34
+Begin Training Epoch 59
+Epoch [59] [390/391]	Time 0.002 (0.005)	Loss 1.0820	Prec@1 15.000 (80.788)	Prec@5 36.250 (89.146)
+Begin Validation @ Epoch 59
+Epoch Summary: 
+	Epoch Accuracy: 34.65
+	Best Accuracy: 35.34
+Begin Training Epoch 60
+Epoch [60] [390/391]	Time 0.003 (0.005)	Loss 1.1112	Prec@1 85.000 (78.726)	Prec@5 97.500 (87.202)
+Begin Validation @ Epoch 60
+Epoch Summary: 
+	Epoch Accuracy: 34.84
+	Best Accuracy: 35.34
+Begin Training Epoch 61
+Epoch [61] [390/391]	Time 0.002 (0.004)	Loss 1.1606	Prec@1 100.000 (80.384)	Prec@5 100.000 (89.110)
+Begin Validation @ Epoch 61
+Epoch Summary: 
+	Epoch Accuracy: 34.66
+	Best Accuracy: 35.34
+Begin Training Epoch 62
+Epoch [62] [390/391]	Time 0.002 (0.005)	Loss 1.0761	Prec@1 100.000 (81.368)	Prec@5 100.000 (89.450)
+Begin Validation @ Epoch 62
+Epoch Summary: 
+	Epoch Accuracy: 35.11
+	Best Accuracy: 35.34
+Begin Training Epoch 63
+Epoch [63] [390/391]	Time 0.002 (0.005)	Loss 1.2402	Prec@1 100.000 (78.030)	Prec@5 100.000 (87.586)
+Begin Validation @ Epoch 63
+Epoch Summary: 
+	Epoch Accuracy: 35.39
+	Best Accuracy: 35.39
+Begin Training Epoch 64
+Epoch [64] [390/391]	Time 0.002 (0.004)	Loss 1.1043	Prec@1 100.000 (81.140)	Prec@5 100.000 (89.346)
+Begin Validation @ Epoch 64
+Epoch Summary: 
+	Epoch Accuracy: 35.15
+	Best Accuracy: 35.39
+Begin Training Epoch 65
+Epoch [65] [390/391]	Time 0.001 (0.005)	Loss 0.9954	Prec@1 96.250 (84.136)	Prec@5 100.000 (91.688)
+Begin Validation @ Epoch 65
+Epoch Summary: 
+	Epoch Accuracy: 35.18
+	Best Accuracy: 35.39
+Begin Training Epoch 66
+Epoch [66] [390/391]	Time 0.002 (0.004)	Loss 1.0193	Prec@1 10.000 (82.872)	Prec@5 23.750 (90.830)
+Begin Validation @ Epoch 66
+Epoch Summary: 
+	Epoch Accuracy: 35.27
+	Best Accuracy: 35.39
+Begin Training Epoch 67
+Epoch [67] [390/391]	Time 0.002 (0.005)	Loss 1.0553	Prec@1 100.000 (81.994)	Prec@5 100.000 (89.850)
+Begin Validation @ Epoch 67
+Epoch Summary: 
+	Epoch Accuracy: 35.43
+	Best Accuracy: 35.43
+Begin Training Epoch 68
+Epoch [68] [390/391]	Time 0.002 (0.005)	Loss 1.0663	Prec@1 5.000 (82.380)	Prec@5 13.750 (90.594)
+Begin Validation @ Epoch 68
+Epoch Summary: 
+	Epoch Accuracy: 34.79
+	Best Accuracy: 35.43
+Begin Training Epoch 69
+Epoch [69] [390/391]	Time 0.002 (0.005)	Loss 1.0019	Prec@1 100.000 (83.906)	Prec@5 100.000 (91.716)
+Begin Validation @ Epoch 69
+Epoch Summary: 
+	Epoch Accuracy: 35.24
+	Best Accuracy: 35.43
+Begin Training Epoch 70
+Epoch [70] [390/391]	Time 0.002 (0.005)	Loss 0.9744	Prec@1 100.000 (83.622)	Prec@5 100.000 (90.836)
+Begin Validation @ Epoch 70
+Epoch Summary: 
+	Epoch Accuracy: 35.05
+	Best Accuracy: 35.43
+Begin Training Epoch 71
+Epoch [71] [390/391]	Time 0.003 (0.004)	Loss 1.1293	Prec@1 100.000 (81.190)	Prec@5 100.000 (89.606)
+Begin Validation @ Epoch 71
+Epoch Summary: 
+	Epoch Accuracy: 35.17
+	Best Accuracy: 35.43
+Begin Training Epoch 72
+Epoch [72] [390/391]	Time 0.002 (0.006)	Loss 1.1976	Prec@1 100.000 (78.960)	Prec@5 100.000 (88.100)
+Begin Validation @ Epoch 72
+Epoch Summary: 
+	Epoch Accuracy: 35.07
+	Best Accuracy: 35.43
+Begin Training Epoch 73
+Epoch [73] [390/391]	Time 0.000 (0.005)	Loss 1.1778	Prec@1 100.000 (79.514)	Prec@5 100.000 (88.162)
+Begin Validation @ Epoch 73
+Epoch Summary: 
+	Epoch Accuracy: 34.4
+	Best Accuracy: 35.43
+Begin Training Epoch 74
+Epoch [74] [390/391]	Time 0.003 (0.005)	Loss 1.0737	Prec@1 100.000 (83.310)	Prec@5 100.000 (91.444)
+Begin Validation @ Epoch 74
+Epoch Summary: 
+	Epoch Accuracy: 34.78
+	Best Accuracy: 35.43
+Begin Training Epoch 75
+Epoch [75] [390/391]	Time 0.002 (0.005)	Loss 1.0144	Prec@1 78.750 (82.942)	Prec@5 96.250 (90.382)
+Begin Validation @ Epoch 75
+Epoch Summary: 
+	Epoch Accuracy: 35.28
+	Best Accuracy: 35.43
+Begin Training Epoch 76
+Epoch [76] [390/391]	Time 0.001 (0.004)	Loss 1.1117	Prec@1 100.000 (81.796)	Prec@5 100.000 (89.574)
+Begin Validation @ Epoch 76
+Epoch Summary: 
+	Epoch Accuracy: 34.07
+	Best Accuracy: 35.43
+Begin Training Epoch 77
+Epoch [77] [390/391]	Time 0.002 (0.004)	Loss 1.0381	Prec@1 62.500 (82.424)	Prec@5 81.250 (90.660)
+Begin Validation @ Epoch 77
+Epoch Summary: 
+	Epoch Accuracy: 34.51
+	Best Accuracy: 35.43
+Begin Training Epoch 78
+Epoch [78] [390/391]	Time 0.002 (0.006)	Loss 1.0374	Prec@1 100.000 (82.730)	Prec@5 100.000 (90.460)
+Begin Validation @ Epoch 78
+Epoch Summary: 
+	Epoch Accuracy: 34.97
+	Best Accuracy: 35.43
+Begin Training Epoch 79
+Epoch [79] [390/391]	Time 0.002 (0.005)	Loss 1.0604	Prec@1 100.000 (82.130)	Prec@5 100.000 (89.950)
+Begin Validation @ Epoch 79
+Epoch Summary: 
+	Epoch Accuracy: 34.76
+	Best Accuracy: 35.43
+Begin Training Epoch 80
+Epoch [80] [390/391]	Time 0.002 (0.006)	Loss 1.0887	Prec@1 100.000 (81.520)	Prec@5 100.000 (89.796)
+Begin Validation @ Epoch 80
+Epoch Summary: 
+	Epoch Accuracy: 34.53
+	Best Accuracy: 35.43
+Begin Training Epoch 81
+Epoch [81] [390/391]	Time 0.003 (0.005)	Loss 1.1397	Prec@1 98.750 (79.706)	Prec@5 100.000 (87.894)
+Begin Validation @ Epoch 81
+Epoch Summary: 
+	Epoch Accuracy: 35.31
+	Best Accuracy: 35.43
+Begin Training Epoch 82
+Epoch [82] [390/391]	Time 0.002 (0.006)	Loss 0.9746	Prec@1 100.000 (83.498)	Prec@5 100.000 (90.698)
+Begin Validation @ Epoch 82
+Epoch Summary: 
+	Epoch Accuracy: 34.98
+	Best Accuracy: 35.43
+Begin Training Epoch 83
+Epoch [83] [390/391]	Time 0.002 (0.004)	Loss 0.9933	Prec@1 98.750 (84.066)	Prec@5 100.000 (91.264)
+Begin Validation @ Epoch 83
+Epoch Summary: 
+	Epoch Accuracy: 35.06
+	Best Accuracy: 35.43
+Begin Training Epoch 84
+Epoch [84] [390/391]	Time 0.002 (0.004)	Loss 0.9690	Prec@1 97.500 (84.234)	Prec@5 100.000 (90.720)
+Begin Validation @ Epoch 84
+Epoch Summary: 
+	Epoch Accuracy: 35.15
+	Best Accuracy: 35.43
+Begin Training Epoch 85
+Epoch [85] [390/391]	Time 0.002 (0.006)	Loss 0.9845	Prec@1 100.000 (84.430)	Prec@5 100.000 (91.660)
+Begin Validation @ Epoch 85
+Epoch Summary: 
+	Epoch Accuracy: 34.88
+	Best Accuracy: 35.43
+Begin Training Epoch 86
+Epoch [86] [390/391]	Time 0.006 (0.005)	Loss 1.0850	Prec@1 100.000 (81.692)	Prec@5 100.000 (89.962)
+Begin Validation @ Epoch 86
+Epoch Summary: 
+	Epoch Accuracy: 34.73
+	Best Accuracy: 35.43
+Begin Training Epoch 87
+Epoch [87] [390/391]	Time 0.006 (0.005)	Loss 1.0059	Prec@1 100.000 (83.472)	Prec@5 100.000 (91.042)
+Begin Validation @ Epoch 87
+Epoch Summary: 
+	Epoch Accuracy: 34.67
+	Best Accuracy: 35.43
+Begin Training Epoch 88
+Epoch [88] [390/391]	Time 0.001 (0.004)	Loss 0.9311	Prec@1 78.750 (86.462)	Prec@5 98.750 (93.248)
+Begin Validation @ Epoch 88
+Epoch Summary: 
+	Epoch Accuracy: 35.48
+	Best Accuracy: 35.48
+Begin Training Epoch 89
+Epoch [89] [390/391]	Time 0.003 (0.004)	Loss 0.9789	Prec@1 93.750 (83.010)	Prec@5 100.000 (90.410)
+Begin Validation @ Epoch 89
+Epoch Summary: 
+	Epoch Accuracy: 35.3
+	Best Accuracy: 35.48
+Begin Training Epoch 90
+Epoch [90] [390/391]	Time 0.002 (0.005)	Loss 0.9755	Prec@1 93.750 (84.880)	Prec@5 100.000 (91.948)
+Begin Validation @ Epoch 90
+Epoch Summary: 
+	Epoch Accuracy: 34.62
+	Best Accuracy: 35.48
+Begin Training Epoch 91
+Epoch [91] [390/391]	Time 0.004 (0.005)	Loss 0.9448	Prec@1 98.750 (85.136)	Prec@5 100.000 (91.946)
+Begin Validation @ Epoch 91
+Epoch Summary: 
+	Epoch Accuracy: 34.77
+	Best Accuracy: 35.48
+Begin Training Epoch 92
+Epoch [92] [390/391]	Time 0.002 (0.004)	Loss 0.8297	Prec@1 98.750 (88.074)	Prec@5 100.000 (93.920)
+Begin Validation @ Epoch 92
+Epoch Summary: 
+	Epoch Accuracy: 35.08
+	Best Accuracy: 35.48
+Begin Training Epoch 93
+Epoch [93] [390/391]	Time 0.003 (0.005)	Loss 0.8538	Prec@1 100.000 (87.116)	Prec@5 100.000 (92.956)
+Begin Validation @ Epoch 93
+Epoch Summary: 
+	Epoch Accuracy: 34.56
+	Best Accuracy: 35.48
+Begin Training Epoch 94
+Epoch [94] [390/391]	Time 0.004 (0.004)	Loss 0.9665	Prec@1 10.000 (85.054)	Prec@5 23.750 (92.242)
+Begin Validation @ Epoch 94
+Epoch Summary: 
+	Epoch Accuracy: 35.44
+	Best Accuracy: 35.48
+Begin Training Epoch 95
+Epoch [95] [390/391]	Time 0.002 (0.005)	Loss 0.9725	Prec@1 100.000 (83.906)	Prec@5 100.000 (91.278)
+Begin Validation @ Epoch 95
+Epoch Summary: 
+	Epoch Accuracy: 34.2
+	Best Accuracy: 35.48
+Begin Training Epoch 96
+Epoch [96] [390/391]	Time 0.003 (0.005)	Loss 0.9589	Prec@1 100.000 (83.734)	Prec@5 100.000 (90.630)
+Begin Validation @ Epoch 96
+Epoch Summary: 
+	Epoch Accuracy: 34.45
+	Best Accuracy: 35.48
+Begin Training Epoch 97
+Epoch [97] [390/391]	Time 0.003 (0.005)	Loss 0.9227	Prec@1 80.000 (86.716)	Prec@5 97.500 (93.558)
+Begin Validation @ Epoch 97
+Epoch Summary: 
+	Epoch Accuracy: 34.48
+	Best Accuracy: 35.48
+Begin Training Epoch 98
+Epoch [98] [390/391]	Time 0.003 (0.005)	Loss 0.9642	Prec@1 78.750 (85.266)	Prec@5 96.250 (91.966)
+Begin Validation @ Epoch 98
+Epoch Summary: 
+	Epoch Accuracy: 35.0
+	Best Accuracy: 35.48
+Begin Training Epoch 99
+Epoch [99] [390/391]	Time 0.003 (0.005)	Loss 0.9477	Prec@1 100.000 (83.976)	Prec@5 100.000 (90.954)
+Begin Validation @ Epoch 99
+Epoch Summary: 
+	Epoch Accuracy: 34.84
+	Best Accuracy: 35.48
+Begin Training Epoch 100
+Epoch [100] [390/391]	Time 0.002 (0.006)	Loss 1.0081	Prec@1 16.250 (83.306)	Prec@5 60.000 (90.542)
+Begin Validation @ Epoch 100
+Epoch Summary: 
+	Epoch Accuracy: 35.21
+	Best Accuracy: 35.48
+Begin Training Epoch 101
+Epoch [101] [390/391]	Time 0.003 (0.006)	Loss 1.0176	Prec@1 100.000 (82.846)	Prec@5 100.000 (90.296)
+Begin Validation @ Epoch 101
+Epoch Summary: 
+	Epoch Accuracy: 35.05
+	Best Accuracy: 35.48
+Begin Training Epoch 102
+Epoch [102] [390/391]	Time 0.002 (0.006)	Loss 0.9631	Prec@1 100.000 (84.032)	Prec@5 100.000 (91.384)
+Begin Validation @ Epoch 102
+Epoch Summary: 
+	Epoch Accuracy: 34.21
+	Best Accuracy: 35.48
+Begin Training Epoch 103
+Epoch [103] [390/391]	Time 0.003 (0.005)	Loss 0.9744	Prec@1 61.250 (84.120)	Prec@5 87.500 (91.190)
+Begin Validation @ Epoch 103
+Epoch Summary: 
+	Epoch Accuracy: 34.37
+	Best Accuracy: 35.48
+Begin Training Epoch 104
+Epoch [104] [390/391]	Time 0.003 (0.004)	Loss 0.9262	Prec@1 100.000 (86.128)	Prec@5 100.000 (93.048)
+Begin Validation @ Epoch 104
+Epoch Summary: 
+	Epoch Accuracy: 34.97
+	Best Accuracy: 35.48
+Begin Training Epoch 105
+Epoch [105] [390/391]	Time 0.003 (0.006)	Loss 0.9809	Prec@1 98.750 (83.750)	Prec@5 100.000 (91.000)
+Begin Validation @ Epoch 105
+Epoch Summary: 
+	Epoch Accuracy: 33.99
+	Best Accuracy: 35.48
+Begin Training Epoch 106
+Epoch [106] [390/391]	Time 0.006 (0.005)	Loss 1.0218	Prec@1 100.000 (81.268)	Prec@5 100.000 (88.912)
+Begin Validation @ Epoch 106
+Epoch Summary: 
+	Epoch Accuracy: 34.87
+	Best Accuracy: 35.48
+Begin Training Epoch 107
+Epoch [107] [390/391]	Time 0.008 (0.005)	Loss 1.0422	Prec@1 100.000 (83.392)	Prec@5 100.000 (90.962)
+Begin Validation @ Epoch 107
+Epoch Summary: 
+	Epoch Accuracy: 34.63
+	Best Accuracy: 35.48
+Begin Training Epoch 108
+Epoch [108] [390/391]	Time 0.003 (0.005)	Loss 1.0029	Prec@1 100.000 (80.944)	Prec@5 100.000 (88.700)
+Begin Validation @ Epoch 108
+Epoch Summary: 
+	Epoch Accuracy: 34.49
+	Best Accuracy: 35.48
+Begin Training Epoch 109
+Epoch [109] [390/391]	Time 0.002 (0.005)	Loss 0.9242	Prec@1 91.250 (84.872)	Prec@5 97.500 (91.730)
+Begin Validation @ Epoch 109
+Epoch Summary: 
+	Epoch Accuracy: 34.67
+	Best Accuracy: 35.48
+Begin Training Epoch 110
+Epoch [110] [390/391]	Time 0.002 (0.006)	Loss 0.9549	Prec@1 100.000 (85.654)	Prec@5 100.000 (92.748)
+Begin Validation @ Epoch 110
+Epoch Summary: 
+	Epoch Accuracy: 34.57
+	Best Accuracy: 35.48
+Begin Training Epoch 111
+Epoch [111] [390/391]	Time 0.002 (0.006)	Loss 0.9194	Prec@1 100.000 (84.962)	Prec@5 100.000 (91.868)
+Begin Validation @ Epoch 111
+Epoch Summary: 
+	Epoch Accuracy: 34.87
+	Best Accuracy: 35.48
+Begin Training Epoch 112
+Epoch [112] [390/391]	Time 0.003 (0.005)	Loss 0.9566	Prec@1 82.500 (84.932)	Prec@5 95.000 (91.448)
+Begin Validation @ Epoch 112
+Epoch Summary: 
+	Epoch Accuracy: 34.12
+	Best Accuracy: 35.48
+Begin Training Epoch 113
+Epoch [113] [390/391]	Time 0.000 (0.005)	Loss 0.9387	Prec@1 78.750 (85.580)	Prec@5 98.750 (92.618)
+Begin Validation @ Epoch 113
+Epoch Summary: 
+	Epoch Accuracy: 34.42
+	Best Accuracy: 35.48
+Begin Training Epoch 114
+Epoch [114] [390/391]	Time 0.006 (0.006)	Loss 0.8885	Prec@1 100.000 (85.404)	Prec@5 100.000 (92.074)
+Begin Validation @ Epoch 114
+Epoch Summary: 
+	Epoch Accuracy: 35.08
+	Best Accuracy: 35.48
+Begin Training Epoch 115
+Epoch [115] [390/391]	Time 0.003 (0.004)	Loss 0.8497	Prec@1 100.000 (86.320)	Prec@5 100.000 (92.148)
+Begin Validation @ Epoch 115
+Epoch Summary: 
+	Epoch Accuracy: 35.22
+	Best Accuracy: 35.48
+Begin Training Epoch 116
+Epoch [116] [390/391]	Time 0.003 (0.005)	Loss 0.9650	Prec@1 93.750 (84.508)	Prec@5 100.000 (91.302)
+Begin Validation @ Epoch 116
+Epoch Summary: 
+	Epoch Accuracy: 35.18
+	Best Accuracy: 35.48
+Begin Training Epoch 117
+Epoch [117] [390/391]	Time 0.000 (0.005)	Loss 0.9417	Prec@1 100.000 (83.856)	Prec@5 100.000 (90.928)
+Begin Validation @ Epoch 117
+Epoch Summary: 
+	Epoch Accuracy: 34.7
+	Best Accuracy: 35.48
+Begin Training Epoch 118
+Epoch [118] [390/391]	Time 0.002 (0.005)	Loss 0.8679	Prec@1 61.250 (86.178)	Prec@5 91.250 (93.126)
+Begin Validation @ Epoch 118
+Epoch Summary: 
+	Epoch Accuracy: 35.15
+	Best Accuracy: 35.48
+Begin Training Epoch 119
+Epoch [119] [390/391]	Time 0.000 (0.005)	Loss 0.9544	Prec@1 70.000 (84.768)	Prec@5 88.750 (91.840)
+Begin Validation @ Epoch 119
+Epoch Summary: 
+	Epoch Accuracy: 34.97
+	Best Accuracy: 35.48
+Begin Training Epoch 120
+Epoch [120] [390/391]	Time 0.002 (0.004)	Loss 0.9609	Prec@1 100.000 (86.666)	Prec@5 100.000 (93.424)
+Begin Validation @ Epoch 120
+Epoch Summary: 
+	Epoch Accuracy: 34.97
+	Best Accuracy: 35.48
+Begin Training Epoch 121
+Epoch [121] [390/391]	Time 0.002 (0.004)	Loss 0.9116	Prec@1 70.000 (86.706)	Prec@5 91.250 (93.722)
+Begin Validation @ Epoch 121
+Epoch Summary: 
+	Epoch Accuracy: 34.81
+	Best Accuracy: 35.48
+Begin Training Epoch 122
+Epoch [122] [390/391]	Time 0.003 (0.005)	Loss 0.9765	Prec@1 100.000 (84.442)	Prec@5 100.000 (91.384)
+Begin Validation @ Epoch 122
+Epoch Summary: 
+	Epoch Accuracy: 34.11
+	Best Accuracy: 35.48
+Begin Training Epoch 123
+Epoch [123] [390/391]	Time 0.002 (0.005)	Loss 0.9860	Prec@1 100.000 (85.560)	Prec@5 100.000 (92.340)
+Begin Validation @ Epoch 123
+Epoch Summary: 
+	Epoch Accuracy: 34.11
+	Best Accuracy: 35.48
+Begin Training Epoch 124
+Epoch [124] [390/391]	Time 0.003 (0.004)	Loss 0.9342	Prec@1 96.250 (84.564)	Prec@5 100.000 (91.818)
+Begin Validation @ Epoch 124
+Epoch Summary: 
+	Epoch Accuracy: 34.88
+	Best Accuracy: 35.48
+Begin Training Epoch 125
+Epoch [125] [390/391]	Time 0.002 (0.004)	Loss 0.8107	Prec@1 100.000 (88.264)	Prec@5 100.000 (93.902)
+Begin Validation @ Epoch 125
+Epoch Summary: 
+	Epoch Accuracy: 35.23
+	Best Accuracy: 35.48
+Begin Training Epoch 126
+Epoch [126] [390/391]	Time 0.003 (0.004)	Loss 1.0197	Prec@1 88.750 (84.284)	Prec@5 97.500 (91.648)
+Begin Validation @ Epoch 126
+Epoch Summary: 
+	Epoch Accuracy: 34.36
+	Best Accuracy: 35.48
+Begin Training Epoch 127
+Epoch [127] [390/391]	Time 0.001 (0.005)	Loss 0.8197	Prec@1 97.500 (86.548)	Prec@5 100.000 (92.686)
+Begin Validation @ Epoch 127
+Epoch Summary: 
+	Epoch Accuracy: 34.84
+	Best Accuracy: 35.48
+Begin Training Epoch 128
+Epoch [128] [390/391]	Time 0.002 (0.005)	Loss 0.9476	Prec@1 81.250 (84.000)	Prec@5 98.750 (90.380)
+Begin Validation @ Epoch 128
+Epoch Summary: 
+	Epoch Accuracy: 34.53
+	Best Accuracy: 35.48
+Begin Training Epoch 129
+Epoch [129] [390/391]	Time 0.000 (0.005)	Loss 0.9602	Prec@1 42.500 (85.294)	Prec@5 76.250 (91.970)
+Begin Validation @ Epoch 129
+Epoch Summary: 
+	Epoch Accuracy: 34.39
+	Best Accuracy: 35.48
+Begin Training Epoch 130
+Epoch [130] [390/391]	Time 0.002 (0.005)	Loss 0.8845	Prec@1 100.000 (86.440)	Prec@5 100.000 (92.628)
+Begin Validation @ Epoch 130
+Epoch Summary: 
+	Epoch Accuracy: 34.22
+	Best Accuracy: 35.48
+Begin Training Epoch 131
+Epoch [131] [390/391]	Time 0.002 (0.005)	Loss 0.9464	Prec@1 100.000 (86.250)	Prec@5 100.000 (92.930)
+Begin Validation @ Epoch 131
+Epoch Summary: 
+	Epoch Accuracy: 33.9
+	Best Accuracy: 35.48
+Begin Training Epoch 132
+Epoch [132] [390/391]	Time 0.002 (0.005)	Loss 0.9467	Prec@1 96.250 (85.976)	Prec@5 100.000 (93.072)
+Begin Validation @ Epoch 132
+Epoch Summary: 
+	Epoch Accuracy: 34.88
+	Best Accuracy: 35.48
+Begin Training Epoch 133
+Epoch [133] [390/391]	Time 0.002 (0.004)	Loss 0.7809	Prec@1 11.250 (88.002)	Prec@5 30.000 (93.558)
+Begin Validation @ Epoch 133
+Epoch Summary: 
+	Epoch Accuracy: 35.17
+	Best Accuracy: 35.48
+Begin Training Epoch 134
+Epoch [134] [390/391]	Time 0.002 (0.005)	Loss 0.8666	Prec@1 96.250 (85.936)	Prec@5 100.000 (92.422)
+Begin Validation @ Epoch 134
+Epoch Summary: 
+	Epoch Accuracy: 34.26
+	Best Accuracy: 35.48
+Begin Training Epoch 135
+Epoch [135] [390/391]	Time 0.002 (0.006)	Loss 0.8912	Prec@1 92.500 (86.476)	Prec@5 98.750 (93.292)
+Begin Validation @ Epoch 135
+Epoch Summary: 
+	Epoch Accuracy: 34.13
+	Best Accuracy: 35.48
+Begin Training Epoch 136
+Epoch [136] [390/391]	Time 0.003 (0.004)	Loss 0.9310	Prec@1 100.000 (85.522)	Prec@5 100.000 (92.586)
+Begin Validation @ Epoch 136
+Epoch Summary: 
+	Epoch Accuracy: 33.85
+	Best Accuracy: 35.48
+Begin Training Epoch 137
+Epoch [137] [390/391]	Time 0.002 (0.005)	Loss 0.8746	Prec@1 100.000 (85.466)	Prec@5 100.000 (91.950)
+Begin Validation @ Epoch 137
+Epoch Summary: 
+	Epoch Accuracy: 34.19
+	Best Accuracy: 35.48
+Begin Training Epoch 138
+Epoch [138] [390/391]	Time 0.002 (0.005)	Loss 0.8554	Prec@1 97.500 (87.014)	Prec@5 100.000 (92.878)
+Begin Validation @ Epoch 138
+Epoch Summary: 
+	Epoch Accuracy: 34.62
+	Best Accuracy: 35.48
+Begin Training Epoch 139
+Epoch [139] [390/391]	Time 0.002 (0.005)	Loss 0.8723	Prec@1 100.000 (87.676)	Prec@5 100.000 (94.050)
+Begin Validation @ Epoch 139
+Epoch Summary: 
+	Epoch Accuracy: 34.24
+	Best Accuracy: 35.48
+Begin Training Epoch 140
+Epoch [140] [390/391]	Time 0.002 (0.005)	Loss 0.9007	Prec@1 100.000 (85.936)	Prec@5 100.000 (92.422)
+Begin Validation @ Epoch 140
+Epoch Summary: 
+	Epoch Accuracy: 34.48
+	Best Accuracy: 35.48
+Begin Training Epoch 141
+Epoch [141] [390/391]	Time 0.003 (0.005)	Loss 0.9559	Prec@1 98.750 (84.982)	Prec@5 100.000 (92.186)
+Begin Validation @ Epoch 141
+Epoch Summary: 
+	Epoch Accuracy: 33.94
+	Best Accuracy: 35.48
+Begin Training Epoch 142
+Epoch [142] [390/391]	Time 0.002 (0.005)	Loss 0.8134	Prec@1 96.250 (88.442)	Prec@5 100.000 (93.774)
+Begin Validation @ Epoch 142
+Epoch Summary: 
+	Epoch Accuracy: 33.93
+	Best Accuracy: 35.48
+Begin Training Epoch 143
+Epoch [143] [390/391]	Time 0.001 (0.005)	Loss 0.8674	Prec@1 18.750 (85.506)	Prec@5 51.250 (91.486)
+Begin Validation @ Epoch 143
+Epoch Summary: 
+	Epoch Accuracy: 34.28
+	Best Accuracy: 35.48
+Begin Training Epoch 144
+Epoch [144] [390/391]	Time 0.002 (0.006)	Loss 0.8777	Prec@1 100.000 (86.300)	Prec@5 100.000 (93.038)
+Begin Validation @ Epoch 144
+Epoch Summary: 
+	Epoch Accuracy: 33.89
+	Best Accuracy: 35.48
+Begin Training Epoch 145
+Epoch [145] [390/391]	Time 0.002 (0.005)	Loss 0.8083	Prec@1 100.000 (88.806)	Prec@5 100.000 (94.822)
+Begin Validation @ Epoch 145
+Epoch Summary: 
+	Epoch Accuracy: 34.47
+	Best Accuracy: 35.48
+Begin Training Epoch 146
+Epoch [146] [390/391]	Time 0.002 (0.004)	Loss 0.9201	Prec@1 82.500 (84.690)	Prec@5 98.750 (92.196)
+Begin Validation @ Epoch 146
+Epoch Summary: 
+	Epoch Accuracy: 34.02
+	Best Accuracy: 35.48
+Begin Training Epoch 147
+Epoch [147] [390/391]	Time 0.000 (0.004)	Loss 0.8492	Prec@1 100.000 (86.676)	Prec@5 100.000 (92.884)
+Begin Validation @ Epoch 147
+Epoch Summary: 
+	Epoch Accuracy: 34.28
+	Best Accuracy: 35.48
+Begin Training Epoch 148
+Epoch [148] [390/391]	Time 0.003 (0.004)	Loss 0.8260	Prec@1 83.750 (86.830)	Prec@5 98.750 (93.102)
+Begin Validation @ Epoch 148
+Epoch Summary: 
+	Epoch Accuracy: 34.36
+	Best Accuracy: 35.48
+Begin Training Epoch 149
+Epoch [149] [390/391]	Time 0.003 (0.005)	Loss 0.8974	Prec@1 100.000 (85.640)	Prec@5 100.000 (92.366)
+Begin Validation @ Epoch 149
+Epoch Summary: 
+	Epoch Accuracy: 33.83
+	Best Accuracy: 35.48
+Begin Training Epoch 150
+Epoch [150] [390/391]	Time 0.002 (0.005)	Loss 0.7969	Prec@1 86.250 (87.130)	Prec@5 98.750 (93.540)
+Begin Validation @ Epoch 150
+Epoch Summary: 
+	Epoch Accuracy: 34.15
+	Best Accuracy: 35.48
+Begin Training Epoch 151
+Epoch [151] [390/391]	Time 0.001 (0.005)	Loss 0.9060	Prec@1 48.750 (85.428)	Prec@5 82.500 (92.056)
+Begin Validation @ Epoch 151
+Epoch Summary: 
+	Epoch Accuracy: 34.54
+	Best Accuracy: 35.48
+Begin Training Epoch 152
+Epoch [152] [390/391]	Time 0.002 (0.004)	Loss 0.8000	Prec@1 100.000 (88.270)	Prec@5 100.000 (94.300)
+Begin Validation @ Epoch 152
+Epoch Summary: 
+	Epoch Accuracy: 34.24
+	Best Accuracy: 35.48
+Begin Training Epoch 153
+Epoch [153] [390/391]	Time 0.001 (0.005)	Loss 0.8199	Prec@1 100.000 (87.696)	Prec@5 100.000 (93.960)
+Begin Validation @ Epoch 153
+Epoch Summary: 
+	Epoch Accuracy: 33.96
+	Best Accuracy: 35.48
+Begin Training Epoch 154
+Epoch [154] [390/391]	Time 0.002 (0.005)	Loss 0.8733	Prec@1 100.000 (85.712)	Prec@5 100.000 (92.512)
+Begin Validation @ Epoch 154
+Epoch Summary: 
+	Epoch Accuracy: 34.05
+	Best Accuracy: 35.48
+Begin Training Epoch 155
+Epoch [155] [390/391]	Time 0.002 (0.006)	Loss 0.8514	Prec@1 51.250 (86.850)	Prec@5 85.000 (93.484)
+Begin Validation @ Epoch 155
+Epoch Summary: 
+	Epoch Accuracy: 34.79
+	Best Accuracy: 35.48
+Begin Training Epoch 156
+Epoch [156] [390/391]	Time 0.002 (0.006)	Loss 0.8473	Prec@1 100.000 (87.948)	Prec@5 100.000 (93.936)
+Begin Validation @ Epoch 156
+Epoch Summary: 
+	Epoch Accuracy: 33.99
+	Best Accuracy: 35.48
+Begin Training Epoch 157
+Epoch [157] [390/391]	Time 0.003 (0.005)	Loss 0.7891	Prec@1 73.750 (88.152)	Prec@5 93.750 (94.210)
+Begin Validation @ Epoch 157
+Epoch Summary: 
+	Epoch Accuracy: 34.89
+	Best Accuracy: 35.48
+Begin Training Epoch 158
+Epoch [158] [390/391]	Time 0.001 (0.005)	Loss 0.7543	Prec@1 91.250 (88.804)	Prec@5 98.750 (94.206)
+Begin Validation @ Epoch 158
+Epoch Summary: 
+	Epoch Accuracy: 34.92
+	Best Accuracy: 35.48
+Begin Training Epoch 159
+Epoch [159] [390/391]	Time 0.002 (0.005)	Loss 0.9628	Prec@1 97.500 (85.496)	Prec@5 100.000 (92.782)
+Begin Validation @ Epoch 159
+Epoch Summary: 
+	Epoch Accuracy: 32.88
+	Best Accuracy: 35.48
+Begin Training Epoch 160
+Epoch [160] [390/391]	Time 0.003 (0.006)	Loss 0.8444	Prec@1 100.000 (86.386)	Prec@5 100.000 (93.390)
+Begin Validation @ Epoch 160
+Epoch Summary: 
+	Epoch Accuracy: 33.51
+	Best Accuracy: 35.48
+Begin Training Epoch 161
+Epoch [161] [390/391]	Time 0.002 (0.006)	Loss 0.7719	Prec@1 100.000 (88.106)	Prec@5 100.000 (93.584)
+Begin Validation @ Epoch 161
+Epoch Summary: 
+	Epoch Accuracy: 34.56
+	Best Accuracy: 35.48
+Begin Training Epoch 162
+Epoch [162] [390/391]	Time 0.002 (0.006)	Loss 0.8555	Prec@1 100.000 (86.364)	Prec@5 100.000 (92.902)
+Begin Validation @ Epoch 162
+Epoch Summary: 
+	Epoch Accuracy: 33.31
+	Best Accuracy: 35.48
+Begin Training Epoch 163
+Epoch [163] [390/391]	Time 0.002 (0.005)	Loss 0.7904	Prec@1 88.750 (87.768)	Prec@5 100.000 (93.552)
+Begin Validation @ Epoch 163
+Epoch Summary: 
+	Epoch Accuracy: 33.77
+	Best Accuracy: 35.48
+Begin Training Epoch 164
+Epoch [164] [390/391]	Time 0.002 (0.005)	Loss 0.8162	Prec@1 75.000 (87.126)	Prec@5 91.250 (93.066)
+Begin Validation @ Epoch 164
+Epoch Summary: 
+	Epoch Accuracy: 33.42
+	Best Accuracy: 35.48
+Begin Training Epoch 165
+Epoch [165] [390/391]	Time 0.003 (0.006)	Loss 0.8480	Prec@1 98.750 (85.484)	Prec@5 100.000 (92.450)
+Begin Validation @ Epoch 165
+Epoch Summary: 
+	Epoch Accuracy: 34.08
+	Best Accuracy: 35.48
+Begin Training Epoch 166
+Epoch [166] [390/391]	Time 0.002 (0.005)	Loss 0.7633	Prec@1 70.000 (90.044)	Prec@5 98.750 (94.920)
+Begin Validation @ Epoch 166
+Epoch Summary: 
+	Epoch Accuracy: 33.86
+	Best Accuracy: 35.48
+Begin Training Epoch 167
+Epoch [167] [390/391]	Time 0.003 (0.004)	Loss 0.8415	Prec@1 100.000 (87.882)	Prec@5 100.000 (94.774)
+Begin Validation @ Epoch 167
+Epoch Summary: 
+	Epoch Accuracy: 33.9
+	Best Accuracy: 35.48
+Begin Training Epoch 168
+Epoch [168] [390/391]	Time 0.001 (0.004)	Loss 0.8596	Prec@1 100.000 (86.628)	Prec@5 100.000 (93.432)
+Begin Validation @ Epoch 168
+Epoch Summary: 
+	Epoch Accuracy: 33.54
+	Best Accuracy: 35.48
+Begin Training Epoch 169
+Epoch [169] [390/391]	Time 0.002 (0.004)	Loss 0.8313	Prec@1 100.000 (87.448)	Prec@5 100.000 (93.650)
+Begin Validation @ Epoch 169
+Epoch Summary: 
+	Epoch Accuracy: 33.67
+	Best Accuracy: 35.48
+Begin Training Epoch 170
+Epoch [170] [390/391]	Time 0.002 (0.006)	Loss 0.7438	Prec@1 100.000 (89.336)	Prec@5 100.000 (94.742)
+Begin Validation @ Epoch 170
+Epoch Summary: 
+	Epoch Accuracy: 33.78
+	Best Accuracy: 35.48
+Begin Training Epoch 171
+Epoch [171] [390/391]	Time 0.002 (0.005)	Loss 0.7749	Prec@1 100.000 (87.248)	Prec@5 100.000 (93.020)
+Begin Validation @ Epoch 171
+Epoch Summary: 
+	Epoch Accuracy: 33.59
+	Best Accuracy: 35.48
+Begin Training Epoch 172
+Epoch [172] [390/391]	Time 0.001 (0.005)	Loss 0.8248	Prec@1 100.000 (88.042)	Prec@5 100.000 (94.110)
+Begin Validation @ Epoch 172
+Epoch Summary: 
+	Epoch Accuracy: 33.5
+	Best Accuracy: 35.48
+Begin Training Epoch 173
+Epoch [173] [390/391]	Time 0.002 (0.004)	Loss 0.8742	Prec@1 100.000 (84.918)	Prec@5 100.000 (92.152)
+Begin Validation @ Epoch 173
+Epoch Summary: 
+	Epoch Accuracy: 33.44
+	Best Accuracy: 35.48
+Begin Training Epoch 174
+Epoch [174] [390/391]	Time 0.002 (0.005)	Loss 0.7595	Prec@1 100.000 (86.978)	Prec@5 100.000 (92.804)
+Begin Validation @ Epoch 174
+Epoch Summary: 
+	Epoch Accuracy: 33.93
+	Best Accuracy: 35.48
+Begin Training Epoch 175
+Epoch [175] [390/391]	Time 0.002 (0.004)	Loss 0.8269	Prec@1 100.000 (88.360)	Prec@5 100.000 (94.714)
+Begin Validation @ Epoch 175
+Epoch Summary: 
+	Epoch Accuracy: 33.23
+	Best Accuracy: 35.48
+Begin Training Epoch 176
+Epoch [176] [390/391]	Time 0.002 (0.004)	Loss 0.7980	Prec@1 36.250 (88.276)	Prec@5 81.250 (94.478)
+Begin Validation @ Epoch 176
+Epoch Summary: 
+	Epoch Accuracy: 33.39
+	Best Accuracy: 35.48
+Begin Training Epoch 177
+Epoch [177] [390/391]	Time 0.002 (0.004)	Loss 0.9024	Prec@1 100.000 (85.154)	Prec@5 100.000 (92.272)
+Begin Validation @ Epoch 177
+Epoch Summary: 
+	Epoch Accuracy: 33.21
+	Best Accuracy: 35.48
+Begin Training Epoch 178
+Epoch [178] [390/391]	Time 0.002 (0.005)	Loss 0.7813	Prec@1 100.000 (88.446)	Prec@5 100.000 (94.328)
+Begin Validation @ Epoch 178
+Epoch Summary: 
+	Epoch Accuracy: 33.53
+	Best Accuracy: 35.48
+Begin Training Epoch 179
+Epoch [179] [390/391]	Time 0.002 (0.005)	Loss 0.7206	Prec@1 95.000 (90.772)	Prec@5 100.000 (96.118)
+Begin Validation @ Epoch 179
+Epoch Summary: 
+	Epoch Accuracy: 33.42
+	Best Accuracy: 35.48
+Begin Training Epoch 180
+Epoch [180] [390/391]	Time 0.002 (0.004)	Loss 0.7882	Prec@1 30.000 (88.168)	Prec@5 56.250 (94.370)
+Begin Validation @ Epoch 180
+Epoch Summary: 
+	Epoch Accuracy: 33.56
+	Best Accuracy: 35.48
+Begin Training Epoch 181
+Epoch [181] [390/391]	Time 0.002 (0.005)	Loss 0.7636	Prec@1 100.000 (89.988)	Prec@5 100.000 (95.562)
+Begin Validation @ Epoch 181
+Epoch Summary: 
+	Epoch Accuracy: 34.22
+	Best Accuracy: 35.48
+Begin Training Epoch 182
+Epoch [182] [390/391]	Time 0.001 (0.004)	Loss 0.7807	Prec@1 93.750 (88.754)	Prec@5 100.000 (94.124)
+Begin Validation @ Epoch 182
+Epoch Summary: 
+	Epoch Accuracy: 34.11
+	Best Accuracy: 35.48
+Begin Training Epoch 183
+Epoch [183] [390/391]	Time 0.002 (0.004)	Loss 0.8295	Prec@1 100.000 (85.520)	Prec@5 100.000 (92.430)
+Begin Validation @ Epoch 183
+Epoch Summary: 
+	Epoch Accuracy: 33.48
+	Best Accuracy: 35.48
+Begin Training Epoch 184
+Epoch [184] [390/391]	Time 0.002 (0.005)	Loss 0.8756	Prec@1 100.000 (86.520)	Prec@5 100.000 (93.668)
+Begin Validation @ Epoch 184
+Epoch Summary: 
+	Epoch Accuracy: 33.66
+	Best Accuracy: 35.48
+Begin Training Epoch 185
+Epoch [185] [390/391]	Time 0.002 (0.005)	Loss 0.6717	Prec@1 72.500 (90.780)	Prec@5 98.750 (95.488)
+Begin Validation @ Epoch 185
+Epoch Summary: 
+	Epoch Accuracy: 34.04
+	Best Accuracy: 35.48
+Begin Training Epoch 186
+Epoch [186] [390/391]	Time 0.002 (0.005)	Loss 0.8076	Prec@1 65.000 (87.510)	Prec@5 85.000 (93.380)
+Begin Validation @ Epoch 186
+Epoch Summary: 
+	Epoch Accuracy: 33.33
+	Best Accuracy: 35.48
+Begin Training Epoch 187
+Epoch [187] [390/391]	Time 0.002 (0.004)	Loss 0.8831	Prec@1 76.250 (84.830)	Prec@5 90.000 (91.916)
+Begin Validation @ Epoch 187
+Epoch Summary: 
+	Epoch Accuracy: 33.74
+	Best Accuracy: 35.48
+Begin Training Epoch 188
+Epoch [188] [390/391]	Time 0.002 (0.004)	Loss 0.7183	Prec@1 100.000 (89.812)	Prec@5 100.000 (95.430)
+Begin Validation @ Epoch 188
+Epoch Summary: 
+	Epoch Accuracy: 33.86
+	Best Accuracy: 35.48
+Begin Training Epoch 189
+Epoch [189] [390/391]	Time 0.002 (0.004)	Loss 0.8586	Prec@1 65.000 (85.802)	Prec@5 93.750 (93.150)
+Begin Validation @ Epoch 189
+Epoch Summary: 
+	Epoch Accuracy: 33.62
+	Best Accuracy: 35.48
+Begin Training Epoch 190
+Epoch [190] [390/391]	Time 0.003 (0.005)	Loss 0.8558	Prec@1 100.000 (85.650)	Prec@5 100.000 (91.732)
+Begin Validation @ Epoch 190
+Epoch Summary: 
+	Epoch Accuracy: 33.17
+	Best Accuracy: 35.48
+Begin Training Epoch 191
+Epoch [191] [390/391]	Time 0.005 (0.004)	Loss 0.7834	Prec@1 100.000 (86.330)	Prec@5 100.000 (92.874)
+Begin Validation @ Epoch 191
+Epoch Summary: 
+	Epoch Accuracy: 33.96
+	Best Accuracy: 35.48
+Begin Training Epoch 192
+Epoch [192] [390/391]	Time 0.002 (0.004)	Loss 0.8036	Prec@1 100.000 (87.368)	Prec@5 100.000 (93.442)
+Begin Validation @ Epoch 192
+Epoch Summary: 
+	Epoch Accuracy: 33.68
+	Best Accuracy: 35.48
+Begin Training Epoch 193
+Epoch [193] [390/391]	Time 0.002 (0.005)	Loss 0.7868	Prec@1 98.750 (88.290)	Prec@5 100.000 (94.368)
+Begin Validation @ Epoch 193
+Epoch Summary: 
+	Epoch Accuracy: 32.92
+	Best Accuracy: 35.48
+Begin Training Epoch 194
+Epoch [194] [390/391]	Time 0.001 (0.005)	Loss 0.8077	Prec@1 100.000 (87.320)	Prec@5 100.000 (93.878)
+Begin Validation @ Epoch 194
+Epoch Summary: 
+	Epoch Accuracy: 33.76
+	Best Accuracy: 35.48
+Begin Training Epoch 195
+Epoch [195] [390/391]	Time 0.002 (0.005)	Loss 0.7484	Prec@1 100.000 (86.896)	Prec@5 100.000 (93.214)
+Begin Validation @ Epoch 195
+Epoch Summary: 
+	Epoch Accuracy: 34.1
+	Best Accuracy: 35.48
+Begin Training Epoch 196
+Epoch [196] [390/391]	Time 0.002 (0.004)	Loss 0.8602	Prec@1 100.000 (85.890)	Prec@5 100.000 (93.680)
+Begin Validation @ Epoch 196
+Epoch Summary: 
+	Epoch Accuracy: 33.29
+	Best Accuracy: 35.48
+Begin Training Epoch 197
+Epoch [197] [390/391]	Time 0.003 (0.005)	Loss 0.7329	Prec@1 87.500 (88.578)	Prec@5 98.750 (94.642)
+Begin Validation @ Epoch 197
+Epoch Summary: 
+	Epoch Accuracy: 33.14
+	Best Accuracy: 35.48
+Begin Training Epoch 198
+Epoch [198] [390/391]	Time 0.002 (0.005)	Loss 0.8075	Prec@1 78.750 (88.154)	Prec@5 95.000 (94.212)
+Begin Validation @ Epoch 198
+Epoch Summary: 
+	Epoch Accuracy: 33.73
+	Best Accuracy: 35.48
+Begin Training Epoch 199
+Epoch [199] [390/391]	Time 0.002 (0.005)	Loss 0.7939	Prec@1 95.000 (88.302)	Prec@5 100.000 (94.002)
+Begin Validation @ Epoch 199
+Epoch Summary: 
+	Epoch Accuracy: 33.83
+	Best Accuracy: 35.48
+Begin Training Epoch 200
+Epoch [200] [390/391]	Time 0.002 (0.005)	Loss 0.7405	Prec@1 98.750 (88.292)	Prec@5 100.000 (94.024)
+Begin Validation @ Epoch 200
+Epoch Summary: 
+	Epoch Accuracy: 33.08
+	Best Accuracy: 35.48
+[4.136325396575928, 3.781410607299805, 3.595743274307251, 3.3647706436157225, 3.2381468293762206, 3.236825876464844, 2.998769856414795, 2.901108516693115, 2.7888499494934083, 2.628825104942322, 2.531228115615845, 2.366461960449219, 2.204318848991394, 2.0310589304351807, 1.7965667897605897, 1.6512593255710601, 1.6625520020008087, 1.6942318606567384, 1.5410324654960632, 1.5093542492675782, 1.5541060239553453, 1.4823641453552245, 1.3890183445549011, 1.4782743616771699, 1.4772098287582398, 1.2576378788042069, 1.3933566380023956, 1.377164469499588, 1.2903229903697968, 1.446117389202118, 1.1973229569721222, 1.4476837291431428, 1.27307094517231, 1.2843430813479424, 1.3151338503599166, 1.2389090005099774, 1.3130481257271767, 1.1953539821696282, 1.3677470575761794, 1.1975372695016862, 1.2832939919519424, 1.2665000519299507, 1.3613840884208679, 1.3177383863961696, 1.2751409215164184, 1.1970479006099701, 1.2209893779802323, 1.2299941978740692, 1.2178370351505279, 1.19817567040205, 1.1441111633348464, 1.3667186900997161, 1.1144900969076157, 1.11717491304636, 1.2673999455332756, 1.1850717245388032, 1.1348181008458138, 1.1643879062509537, 1.0819947370147704, 1.1111760006046296, 1.1605956779539586, 1.07610097345829, 1.2401888763701916, 1.1042775752288103, 0.9954354676914215, 1.0192869399380684, 1.0553184102916717, 1.0663286336803437, 1.0019358279079198, 0.9743976123714447, 1.1292568897402286, 1.1975629548060893, 1.177814043905735, 1.0737381417393685, 1.0144289061832428, 1.1117401033830643, 1.0381003626060485, 1.0374128815323114, 1.060384362757206, 1.088675915095806, 1.1397298543858527, 0.9746038239645958, 0.9932634622108937, 0.9690395051240921, 0.9844513979136944, 1.0850123669075966, 1.0059182865685226, 0.9311086483645439, 0.9789403629779816, 0.9754959283447265, 0.9447693778717517, 0.8297234201860428, 0.8537504013711215, 0.9664847473287582, 0.972473121700883, 0.9588718526959419, 0.922684314160347, 0.9642273245644569, 0.9477214457768202, 1.0080950346541404, 1.0175596642744542, 0.9630583299708366, 0.9743901467752457, 0.9262430687379837, 0.9808525953722, 1.0218252727103234, 1.042164470665455, 1.0029021032875776, 0.9242322172307968, 0.9548515269851685, 0.9193926117646695, 0.9565682113742828, 0.9386962500286102, 0.8885175858530402, 0.8496508479484915, 0.9650397004246711, 0.9417490710186959, 0.8678930489516258, 0.9543709787774086, 0.9609139808946848, 0.9115946259903908, 0.9764605395185948, 0.9860499303758145, 0.9342155690598488, 0.8107436779546737, 1.0196880618834496, 0.819666806678772, 0.9475682089734078, 0.9602005913543701, 0.8845079926228523, 0.9464187518429756, 0.9466974059700966, 0.7808977829551697, 0.8665867670607567, 0.8911558685445785, 0.9309530630338192, 0.8745815040814876, 0.8554073750853538, 0.8722648911499977, 0.9007064086806774, 0.9559229692602158, 0.8134116904234886, 0.8673806362628936, 0.8776835285660625, 0.8083394767230749, 0.9201469578480721, 0.8492137566736341, 0.8260133635473251, 0.8973942827272415, 0.7969012079811096, 0.9060477892518044, 0.7999942578506469, 0.8198721628022194, 0.8732921884942054, 0.8513654119133949, 0.8472912543016672, 0.7891237152051925, 0.7542525903725624, 0.9627868614864349, 0.8443586978006363, 0.7718534477198123, 0.8554527630132437, 0.7903706966066361, 0.8162418211984634, 0.8479841609621048, 0.7633370703005791, 0.8414612526446581, 0.8596271610933542, 0.8312509500771761, 0.7438124723786116, 0.7749201809942722, 0.8247818684357404, 0.8741762729483843, 0.7595124810931086, 0.8269481359741092, 0.7979596346354485, 0.9024367333126068, 0.7812905821233987, 0.7205920078325272, 0.7882211291646958, 0.763626603205204, 0.780747936770916, 0.8294592040371895, 0.8755625843411684, 0.6716965984487534, 0.8076301561546325, 0.8831129654979706, 0.7182730693346262, 0.8585976665663719, 0.8557738284927606, 0.7833840891849995, 0.8036007408678532, 0.7867630255115032, 0.8076670229583979, 0.7483722383928298, 0.8602104172557592, 0.7329402469658851, 0.807474023706913, 0.7939360258102417, 0.7404789506292343]
+[15.22, 19.87, 23.63, 25.75, 28.04, 29.08, 31.05, 31.55, 32.54, 33.02, 33.84, 34.65, 34.0, 34.51, 34.7, 34.22, 34.58, 35.01, 34.14, 34.44, 34.58, 34.01, 34.96, 34.38, 34.13, 34.48, 34.33, 34.49, 34.5, 34.59, 35.16, 34.1, 35.16, 34.58, 34.25, 34.87, 35.13, 34.74, 34.02, 34.18, 35.2, 34.51, 34.85, 34.99, 35.16, 34.83, 34.5, 34.7, 35.1, 35.07, 35.02, 34.93, 33.99, 35.34, 35.12, 34.92, 35.32, 34.6, 34.65, 34.84, 34.66, 35.11, 35.39, 35.15, 35.18, 35.27, 35.43, 34.79, 35.24, 35.05, 35.17, 35.07, 34.4, 34.78, 35.28, 34.07, 34.51, 34.97, 34.76, 34.53, 35.31, 34.98, 35.06, 35.15, 34.88, 34.73, 34.67, 35.48, 35.3, 34.62, 34.77, 35.08, 34.56, 35.44, 34.2, 34.45, 34.48, 35.0, 34.84, 35.21, 35.05, 34.21, 34.37, 34.97, 33.99, 34.87, 34.63, 34.49, 34.67, 34.57, 34.87, 34.12, 34.42, 35.08, 35.22, 35.18, 34.7, 35.15, 34.97, 34.97, 34.81, 34.11, 34.11, 34.88, 35.23, 34.36, 34.84, 34.53, 34.39, 34.22, 33.9, 34.88, 35.17, 34.26, 34.13, 33.85, 34.19, 34.62, 34.24, 34.48, 33.94, 33.93, 34.28, 33.89, 34.47, 34.02, 34.28, 34.36, 33.83, 34.15, 34.54, 34.24, 33.96, 34.05, 34.79, 33.99, 34.89, 34.92, 32.88, 33.51, 34.56, 33.31, 33.77, 33.42, 34.08, 33.86, 33.9, 33.54, 33.67, 33.78, 33.59, 33.5, 33.44, 33.93, 33.23, 33.39, 33.21, 33.53, 33.42, 33.56, 34.22, 34.11, 33.48, 33.66, 34.04, 33.33, 33.74, 33.86, 33.62, 33.17, 33.96, 33.68, 32.92, 33.76, 34.1, 33.29, 33.14, 33.73, 33.83, 33.08]
+Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Begin Training Epoch 1
+Epoch [1] [390/391]	Time 0.002 (0.007)	Loss 4.1394	
+Begin Validation @ Epoch 1
+Epoch Summary: 
+	Epoch test Accuracy: 14.89
+	Best test Accuracy: 14.89
+training acc: 15.238
+test_loss: 0.028743481263518333
+Begin Training Epoch 2
+Epoch [2] [390/391]	Time 0.002 (0.006)	Loss 3.7934	
+Begin Validation @ Epoch 2
+Epoch Summary: 
+	Epoch test Accuracy: 20.07
+	Best test Accuracy: 20.07
+training acc: 21.778
+test_loss: 0.026393486186861992
+Begin Training Epoch 3
+Epoch [3] [390/391]	Time 0.002 (0.006)	Loss 3.5987	
+Begin Validation @ Epoch 3
+Epoch Summary: 
+	Epoch test Accuracy: 22.79
+	Best test Accuracy: 22.79
+training acc: 25.53
+test_loss: 0.025140075013041496
+Begin Training Epoch 4
+Epoch [4] [390/391]	Time 0.002 (0.008)	Loss 3.4025	
+Begin Validation @ Epoch 4
+Epoch Summary: 
+	Epoch test Accuracy: 25.34
+	Best test Accuracy: 25.34
+training acc: 30.406
+test_loss: 0.02419901452958584
+Begin Training Epoch 5
+Epoch [5] [390/391]	Time 0.002 (0.006)	Loss 3.3122	
+Begin Validation @ Epoch 5
+Epoch Summary: 
+	Epoch test Accuracy: 27.75
+	Best test Accuracy: 27.75
+training acc: 34.806
+test_loss: 0.02347998134791851
+Begin Training Epoch 6
+Epoch [6] [390/391]	Time 0.002 (0.007)	Loss 3.1728	
+Begin Validation @ Epoch 6
+Epoch Summary: 
+	Epoch test Accuracy: 29.58
+	Best test Accuracy: 29.58
+training acc: 39.484
+test_loss: 0.022833121940493584
+Begin Training Epoch 7
+Epoch [7] [390/391]	Time 0.005 (0.008)	Loss 3.0626	
+Begin Validation @ Epoch 7
+Epoch Summary: 
+	Epoch test Accuracy: 29.97
+	Best test Accuracy: 29.97
+training acc: 43.346
+test_loss: 0.022585824131965637
+Begin Training Epoch 8
+Epoch [8] [390/391]	Time 0.007 (0.007)	Loss 2.9719	
+Begin Validation @ Epoch 8
+Epoch Summary: 
+	Epoch test Accuracy: 31.77
+	Best test Accuracy: 31.77
+training acc: 49.1
+test_loss: 0.022024204954504967
+Begin Training Epoch 9
+Epoch [9] [390/391]	Time 0.002 (0.007)	Loss 2.8007	
+Begin Validation @ Epoch 9
+Epoch Summary: 
+	Epoch test Accuracy: 32.24
+	Best test Accuracy: 32.24
+training acc: 55.368
+test_loss: 0.02188682369887829
+Begin Training Epoch 10
+Epoch [10] [390/391]	Time 0.002 (0.007)	Loss 2.7015	
+Begin Validation @ Epoch 10
+Epoch Summary: 
+	Epoch test Accuracy: 33.12
+	Best test Accuracy: 33.12
+training acc: 62.356
+test_loss: 0.021626148372888565
+Begin Training Epoch 11
+Epoch [11] [390/391]	Time 0.002 (0.008)	Loss 2.4786	
+Begin Validation @ Epoch 11
+Epoch Summary: 
+	Epoch test Accuracy: 33.8
+	Best test Accuracy: 33.8
+training acc: 69.566
+test_loss: 0.0216513704508543
+Begin Training Epoch 12
+Epoch [12] [390/391]	Time 0.008 (0.006)	Loss 2.3034	
+Begin Validation @ Epoch 12
+Epoch Summary: 
+	Epoch test Accuracy: 34.05
+	Best test Accuracy: 34.05
+training acc: 76.796
+test_loss: 0.021986858919262886
+Begin Training Epoch 13
+Epoch [13] [390/391]	Time 0.002 (0.007)	Loss 2.1782	
+Begin Validation @ Epoch 13
+Epoch Summary: 
+	Epoch test Accuracy: 33.74
+	Best test Accuracy: 34.05
+training acc: 80.802
+test_loss: 0.02229166589677334
+Begin Training Epoch 14
+Epoch [14] [390/391]	Time 0.002 (0.008)	Loss 2.0017	
+Begin Validation @ Epoch 14
+Epoch Summary: 
+	Epoch test Accuracy: 33.77
+	Best test Accuracy: 34.05
+training acc: 86.626
+test_loss: 0.02249843068420887
+Begin Training Epoch 15
+Epoch [15] [390/391]	Time 0.002 (0.007)	Loss 1.8062	
+Begin Validation @ Epoch 15
+Epoch Summary: 
+	Epoch test Accuracy: 34.75
+	Best test Accuracy: 34.75
+training acc: 91.948
+test_loss: 0.02267754077911377
+Begin Training Epoch 16
+Epoch [16] [390/391]	Time 0.003 (0.008)	Loss 1.8898	
+Begin Validation @ Epoch 16
+Epoch Summary: 
+	Epoch test Accuracy: 33.26
+	Best test Accuracy: 34.75
+training acc: 91.584
+test_loss: 0.02307145483791828
+Begin Training Epoch 17
+Epoch [17] [390/391]	Time 0.003 (0.007)	Loss 1.6955	
+Begin Validation @ Epoch 17
+Epoch Summary: 
+	Epoch test Accuracy: 34.11
+	Best test Accuracy: 34.75
+training acc: 95.052
+test_loss: 0.02327556349337101
+Begin Training Epoch 18
+Epoch [18] [390/391]	Time 0.002 (0.007)	Loss 1.7400	
+Begin Validation @ Epoch 18
+Epoch Summary: 
+	Epoch test Accuracy: 34.71
+	Best test Accuracy: 34.75
+training acc: 96.618
+test_loss: 0.022949103266000748
+Begin Training Epoch 19
+Epoch [19] [390/391]	Time 0.002 (0.007)	Loss 1.6191	
+Begin Validation @ Epoch 19
+Epoch Summary: 
+	Epoch test Accuracy: 33.94
+	Best test Accuracy: 34.75
+training acc: 96.486
+test_loss: 0.023366549983620644
+Begin Training Epoch 20
+Epoch [20] [390/391]	Time 0.002 (0.007)	Loss 1.6394	
+Begin Validation @ Epoch 20
+Epoch Summary: 
+	Epoch test Accuracy: 34.64
+	Best test Accuracy: 34.75
+training acc: 97.586
+test_loss: 0.02327549085021019
+Begin Training Epoch 21
+Epoch [21] [390/391]	Time 0.003 (0.007)	Loss 1.4326	
+Begin Validation @ Epoch 21
+Epoch Summary: 
+	Epoch test Accuracy: 34.43
+	Best test Accuracy: 34.75
+training acc: 98.344
+test_loss: 0.023577695712447166
+Begin Training Epoch 22
+Epoch [22] [390/391]	Time 0.002 (0.006)	Loss 1.5631	
+Begin Validation @ Epoch 22
+Epoch Summary: 
+	Epoch test Accuracy: 34.1
+	Best test Accuracy: 34.75
+training acc: 98.382
+test_loss: 0.023164600133895874
+Begin Training Epoch 23
+Epoch [23] [390/391]	Time 0.003 (0.007)	Loss 1.3616	
+Begin Validation @ Epoch 23
+Epoch Summary: 
+	Epoch test Accuracy: 34.12
+	Best test Accuracy: 34.75
+training acc: 98.818
+test_loss: 0.023687299340963364
+Begin Training Epoch 24
+Epoch [24] [390/391]	Time 0.002 (0.006)	Loss 1.4448	
+Begin Validation @ Epoch 24
+Epoch Summary: 
+	Epoch test Accuracy: 34.86
+	Best test Accuracy: 34.86
+training acc: 98.924
+test_loss: 0.02332083135843277
+Begin Training Epoch 25
+Epoch [25] [390/391]	Time 0.012 (0.007)	Loss 1.4223	
+Begin Validation @ Epoch 25
+Epoch Summary: 
+	Epoch test Accuracy: 34.75
+	Best test Accuracy: 34.86
+training acc: 99.216
+test_loss: 0.02376561611890793
+Begin Training Epoch 26
+Epoch [26] [390/391]	Time 0.003 (0.006)	Loss 1.2508	
+Begin Validation @ Epoch 26
+Epoch Summary: 
+	Epoch test Accuracy: 35.07
+	Best test Accuracy: 35.07
+training acc: 99.186
+test_loss: 0.023585272952914238
+Begin Training Epoch 27
+Epoch [27] [390/391]	Time 0.002 (0.006)	Loss 1.4196	
+Begin Validation @ Epoch 27
+Epoch Summary: 
+	Epoch test Accuracy: 34.8
+	Best test Accuracy: 35.07
+training acc: 99.238
+test_loss: 0.02406672202050686
+Begin Training Epoch 28
+Epoch [28] [390/391]	Time 0.003 (0.006)	Loss 1.3817	
+Begin Validation @ Epoch 28
+Epoch Summary: 
+	Epoch test Accuracy: 34.77
+	Best test Accuracy: 35.07
+training acc: 99.336
+test_loss: 0.023487742990255356
+Begin Training Epoch 29
+Epoch [29] [390/391]	Time 0.002 (0.007)	Loss 1.3705	
+Begin Validation @ Epoch 29
+Epoch Summary: 
+	Epoch test Accuracy: 34.94
+	Best test Accuracy: 35.07
+training acc: 99.48
+test_loss: 0.023395143449306488
+Begin Training Epoch 30
+Epoch [30] [390/391]	Time 0.002 (0.005)	Loss 1.3514	
+Begin Validation @ Epoch 30
+Epoch Summary: 
+	Epoch test Accuracy: 35.0
+	Best test Accuracy: 35.07
+training acc: 99.334
+test_loss: 0.023556584492325783
+Begin Training Epoch 31
+Epoch [31] [390/391]	Time 0.002 (0.007)	Loss 1.3086	
+Begin Validation @ Epoch 31
+Epoch Summary: 
+	Epoch test Accuracy: 34.98
+	Best test Accuracy: 35.07
+training acc: 99.51
+test_loss: 0.023532046005129814
+Begin Training Epoch 32
+Epoch [32] [390/391]	Time 0.004 (0.007)	Loss 1.3214	
+Begin Validation @ Epoch 32
+Epoch Summary: 
+	Epoch test Accuracy: 35.55
+	Best test Accuracy: 35.55
+training acc: 99.646
+test_loss: 0.023619938641786575
+Begin Training Epoch 33
+Epoch [33] [390/391]	Time 0.003 (0.006)	Loss 1.3355	
+Begin Validation @ Epoch 33
+Epoch Summary: 
+	Epoch test Accuracy: 35.12
+	Best test Accuracy: 35.55
+training acc: 99.65
+test_loss: 0.02338530495762825
+Begin Training Epoch 34
+Epoch [34] [390/391]	Time 0.002 (0.007)	Loss 1.4061	
+Begin Validation @ Epoch 34
+Epoch Summary: 
+	Epoch test Accuracy: 35.09
+	Best test Accuracy: 35.55
+training acc: 99.542
+test_loss: 0.02327522449195385
+Begin Training Epoch 35
+Epoch [35] [390/391]	Time 0.003 (0.007)	Loss 1.3245	
+Begin Validation @ Epoch 35
+Epoch Summary: 
+	Epoch test Accuracy: 34.23
+	Best test Accuracy: 35.55
+training acc: 99.594
+test_loss: 0.023614367470145226
+Begin Training Epoch 36
+Epoch [36] [390/391]	Time 0.002 (0.006)	Loss 1.3562	
+Begin Validation @ Epoch 36
+Epoch Summary: 
+	Epoch test Accuracy: 34.66
+	Best test Accuracy: 35.55
+training acc: 99.674
+test_loss: 0.023290706798434258
+Begin Training Epoch 37
+Epoch [37] [390/391]	Time 0.003 (0.006)	Loss 1.3467	
+Begin Validation @ Epoch 37
+Epoch Summary: 
+	Epoch test Accuracy: 34.37
+	Best test Accuracy: 35.55
+training acc: 99.508
+test_loss: 0.02348240278661251
+Begin Training Epoch 38
+Epoch [38] [390/391]	Time 0.003 (0.007)	Loss 1.2278	
+Begin Validation @ Epoch 38
+Epoch Summary: 
+	Epoch test Accuracy: 34.89
+	Best test Accuracy: 35.55
+training acc: 99.628
+test_loss: 0.02361164428293705
+Begin Training Epoch 39
+Epoch [39] [390/391]	Time 0.001 (0.007)	Loss 1.2043	
+Begin Validation @ Epoch 39
+Epoch Summary: 
+	Epoch test Accuracy: 35.28
+	Best test Accuracy: 35.55
+training acc: 99.788
+test_loss: 0.02352719195187092
+Begin Training Epoch 40
+Epoch [40] [390/391]	Time 0.002 (0.006)	Loss 1.3441	
+Begin Validation @ Epoch 40
+Epoch Summary: 
+	Epoch test Accuracy: 35.53
+	Best test Accuracy: 35.55
+training acc: 99.828
+test_loss: 0.023318108171224594
+Begin Training Epoch 41
+Epoch [41] [390/391]	Time 0.002 (0.007)	Loss 1.2101	
+Begin Validation @ Epoch 41
+Epoch Summary: 
+	Epoch test Accuracy: 34.25
+	Best test Accuracy: 35.55
+training acc: 99.652
+test_loss: 0.023747805505990982
+Begin Training Epoch 42
+Epoch [42] [390/391]	Time 0.002 (0.007)	Loss 1.3242	
+Begin Validation @ Epoch 42
+Epoch Summary: 
+	Epoch test Accuracy: 34.89
+	Best test Accuracy: 35.55
+training acc: 99.72
+test_loss: 0.023235034197568893
+Begin Training Epoch 43
+Epoch [43] [390/391]	Time 0.002 (0.008)	Loss 1.3309	
+Begin Validation @ Epoch 43
+Epoch Summary: 
+	Epoch test Accuracy: 35.11
+	Best test Accuracy: 35.55
+training acc: 99.744
+test_loss: 0.023261234164237976
+Begin Training Epoch 44
+Epoch [44] [390/391]	Time 0.002 (0.006)	Loss 1.0882	
+Begin Validation @ Epoch 44
+Epoch Summary: 
+	Epoch test Accuracy: 35.44
+	Best test Accuracy: 35.55
+training acc: 99.808
+test_loss: 0.02361627109348774
+Begin Training Epoch 45
+Epoch [45] [390/391]	Time 0.002 (0.007)	Loss 1.2738	
+Begin Validation @ Epoch 45
+Epoch Summary: 
+	Epoch test Accuracy: 35.0
+	Best test Accuracy: 35.55
+training acc: 99.818
+test_loss: 0.023300129920244217
+Begin Training Epoch 46
+Epoch [46] [390/391]	Time 0.001 (0.006)	Loss 1.2473	
+Begin Validation @ Epoch 46
+Epoch Summary: 
+	Epoch test Accuracy: 35.59
+	Best test Accuracy: 35.59
+training acc: 99.8
+test_loss: 0.02352106384932995
+Begin Training Epoch 47
+Epoch [47] [390/391]	Time 0.002 (0.006)	Loss 1.2164	
+Begin Validation @ Epoch 47
+Epoch Summary: 
+	Epoch test Accuracy: 35.21
+	Best test Accuracy: 35.59
+training acc: 99.74
+test_loss: 0.023277712985873222
+Begin Training Epoch 48
+Epoch [48] [390/391]	Time 0.002 (0.007)	Loss 1.2490	
+Begin Validation @ Epoch 48
+Epoch Summary: 
+	Epoch test Accuracy: 34.69
+	Best test Accuracy: 35.59
+training acc: 99.822
+test_loss: 0.02360493503510952
+Begin Training Epoch 49
+Epoch [49] [390/391]	Time 0.004 (0.008)	Loss 1.1589	
+Begin Validation @ Epoch 49
+Epoch Summary: 
+	Epoch test Accuracy: 34.9
+	Best test Accuracy: 35.59
+training acc: 99.766
+test_loss: 0.02337532863020897
+Begin Training Epoch 50
+Epoch [50] [390/391]	Time 0.002 (0.006)	Loss 1.1714	
+Begin Validation @ Epoch 50
+Epoch Summary: 
+	Epoch test Accuracy: 34.96
+	Best test Accuracy: 35.59
+training acc: 99.836
+test_loss: 0.02334156446158886
+Begin Training Epoch 51
+Epoch [51] [390/391]	Time 0.002 (0.006)	Loss 1.2496	
+Begin Validation @ Epoch 51
+Epoch Summary: 
+	Epoch test Accuracy: 35.95
+	Best test Accuracy: 35.95
+training acc: 99.8
+test_loss: 0.02336919493973255
+Begin Training Epoch 52
+Epoch [52] [390/391]	Time 0.002 (0.007)	Loss 1.2095	
+Begin Validation @ Epoch 52
+Epoch Summary: 
+	Epoch test Accuracy: 35.65
+	Best test Accuracy: 35.95
+training acc: 99.87
+test_loss: 0.023410258814692497
+Begin Training Epoch 53
+Epoch [53] [390/391]	Time 0.002 (0.006)	Loss 1.2818	
+Begin Validation @ Epoch 53
+Epoch Summary: 
+	Epoch test Accuracy: 35.06
+	Best test Accuracy: 35.95
+training acc: 99.85
+test_loss: 0.023277737200260162
+Begin Training Epoch 54
+Epoch [54] [390/391]	Time 0.002 (0.006)	Loss 1.1155	
+Begin Validation @ Epoch 54
+Epoch Summary: 
+	Epoch test Accuracy: 35.3
+	Best test Accuracy: 35.95
+training acc: 99.894
+test_loss: 0.023292090743780136
+Begin Training Epoch 55
+Epoch [55] [390/391]	Time 0.001 (0.007)	Loss 1.0969	
+Begin Validation @ Epoch 55
+Epoch Summary: 
+	Epoch test Accuracy: 35.03
+	Best test Accuracy: 35.95
+training acc: 99.886
+test_loss: 0.02316942997276783
+Begin Training Epoch 56
+Epoch [56] [390/391]	Time 0.009 (0.006)	Loss 1.0969	
+Begin Validation @ Epoch 56
+Epoch Summary: 
+	Epoch test Accuracy: 35.59
+	Best test Accuracy: 35.95
+training acc: 99.884
+test_loss: 0.023502962663769722
+Begin Training Epoch 57
+Epoch [57] [390/391]	Time 0.002 (0.007)	Loss 1.1594	
+Begin Validation @ Epoch 57
+Epoch Summary: 
+	Epoch test Accuracy: 35.52
+	Best test Accuracy: 35.95
+training acc: 99.836
+test_loss: 0.023547794669866562
+Begin Training Epoch 58
+Epoch [58] [390/391]	Time 0.003 (0.007)	Loss 1.0587	
+Begin Validation @ Epoch 58
+Epoch Summary: 
+	Epoch test Accuracy: 35.62
+	Best test Accuracy: 35.95
+training acc: 99.922
+test_loss: 0.02341816946864128
+Begin Training Epoch 59
+Epoch [59] [390/391]	Time 0.003 (0.007)	Loss 1.0917	
+Begin Validation @ Epoch 59
+Epoch Summary: 
+	Epoch test Accuracy: 34.99
+	Best test Accuracy: 35.95
+training acc: 99.894
+test_loss: 0.023550627753138542
+Begin Training Epoch 60
+Epoch [60] [390/391]	Time 0.003 (0.008)	Loss 1.1406	
+Begin Validation @ Epoch 60
+Epoch Summary: 
+	Epoch test Accuracy: 35.12
+	Best test Accuracy: 35.95
+training acc: 99.84
+test_loss: 0.02312305197119713
+Begin Training Epoch 61
+Epoch [61] [390/391]	Time 0.002 (0.006)	Loss 1.1483	
+Begin Validation @ Epoch 61
+Epoch Summary: 
+	Epoch test Accuracy: 34.23
+	Best test Accuracy: 35.95
+training acc: 99.704
+test_loss: 0.02341904304921627
+Begin Training Epoch 62
+Epoch [62] [390/391]	Time 0.003 (0.006)	Loss 1.2615	
+Begin Validation @ Epoch 62
+Epoch Summary: 
+	Epoch test Accuracy: 35.08
+	Best test Accuracy: 35.95
+training acc: 99.882
+test_loss: 0.02326176129281521
+Begin Training Epoch 63
+Epoch [63] [390/391]	Time 0.000 (0.007)	Loss 1.0943	
+Begin Validation @ Epoch 63
+Epoch Summary: 
+	Epoch test Accuracy: 34.52
+	Best test Accuracy: 35.95
+training acc: 99.846
+test_loss: 0.023363199084997177
+Begin Training Epoch 64
+Epoch [64] [390/391]	Time 0.002 (0.006)	Loss 1.0784	
+Begin Validation @ Epoch 64
+Epoch Summary: 
+	Epoch test Accuracy: 34.68
+	Best test Accuracy: 35.95
+training acc: 99.872
+test_loss: 0.023207707330584526
+Begin Training Epoch 65
+Epoch [65] [390/391]	Time 0.001 (0.007)	Loss 1.0368	
+Begin Validation @ Epoch 65
+Epoch Summary: 
+	Epoch test Accuracy: 35.05
+	Best test Accuracy: 35.95
+training acc: 99.92
+test_loss: 0.023300515487790108
+Begin Training Epoch 66
+Epoch [66] [390/391]	Time 0.002 (0.006)	Loss 1.0775	
+Begin Validation @ Epoch 66
+Epoch Summary: 
+	Epoch test Accuracy: 34.86
+	Best test Accuracy: 35.95
+training acc: 99.9
+test_loss: 0.023211460560560226
+Begin Training Epoch 67
+Epoch [67] [390/391]	Time 0.003 (0.007)	Loss 1.1773	
+Begin Validation @ Epoch 67
+Epoch Summary: 
+	Epoch test Accuracy: 34.97
+	Best test Accuracy: 35.95
+training acc: 99.886
+test_loss: 0.023183071985840797
+Begin Training Epoch 68
+Epoch [68] [390/391]	Time 0.003 (0.006)	Loss 1.0487	
+Begin Validation @ Epoch 68
+Epoch Summary: 
+	Epoch test Accuracy: 35.38
+	Best test Accuracy: 35.95
+training acc: 99.91
+test_loss: 0.02305767498910427
+Begin Training Epoch 69
+Epoch [69] [390/391]	Time 0.002 (0.008)	Loss 0.9704	
+Begin Validation @ Epoch 69
+Epoch Summary: 
+	Epoch test Accuracy: 35.08
+	Best test Accuracy: 35.95
+training acc: 99.914
+test_loss: 0.023291131481528282
+Begin Training Epoch 70
+Epoch [70] [390/391]	Time 0.002 (0.006)	Loss 1.1168	
+Begin Validation @ Epoch 70
+Epoch Summary: 
+	Epoch test Accuracy: 34.35
+	Best test Accuracy: 35.95
+training acc: 99.918
+test_loss: 0.02337602898478508
+Begin Training Epoch 71
+Epoch [71] [390/391]	Time 0.002 (0.007)	Loss 1.0272	
+Begin Validation @ Epoch 71
+Epoch Summary: 
+	Epoch test Accuracy: 35.1
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.02305625192821026
+Begin Training Epoch 72
+Epoch [72] [390/391]	Time 0.003 (0.006)	Loss 0.9842	
+Begin Validation @ Epoch 72
+Epoch Summary: 
+	Epoch test Accuracy: 34.54
+	Best test Accuracy: 35.95
+training acc: 99.856
+test_loss: 0.023352716118097305
+Begin Training Epoch 73
+Epoch [73] [390/391]	Time 0.003 (0.007)	Loss 0.9817	
+Begin Validation @ Epoch 73
+Epoch Summary: 
+	Epoch test Accuracy: 35.12
+	Best test Accuracy: 35.95
+training acc: 99.902
+test_loss: 0.02340685948729515
+Begin Training Epoch 74
+Epoch [74] [390/391]	Time 0.002 (0.006)	Loss 1.0695	
+Begin Validation @ Epoch 74
+Epoch Summary: 
+	Epoch test Accuracy: 34.74
+	Best test Accuracy: 35.95
+training acc: 99.876
+test_loss: 0.02321486547589302
+Begin Training Epoch 75
+Epoch [75] [390/391]	Time 0.002 (0.006)	Loss 0.9931	
+Begin Validation @ Epoch 75
+Epoch Summary: 
+	Epoch test Accuracy: 34.69
+	Best test Accuracy: 35.95
+training acc: 99.908
+test_loss: 0.023279991000890732
+Begin Training Epoch 76
+Epoch [76] [390/391]	Time 0.002 (0.007)	Loss 1.0105	
+Begin Validation @ Epoch 76
+Epoch Summary: 
+	Epoch test Accuracy: 34.84
+	Best test Accuracy: 35.95
+training acc: 99.922
+test_loss: 0.022943221032619476
+Begin Training Epoch 77
+Epoch [77] [390/391]	Time 0.002 (0.006)	Loss 1.0492	
+Begin Validation @ Epoch 77
+Epoch Summary: 
+	Epoch test Accuracy: 34.88
+	Best test Accuracy: 35.95
+training acc: 99.904
+test_loss: 0.02309652604162693
+Begin Training Epoch 78
+Epoch [78] [390/391]	Time 0.014 (0.007)	Loss 1.0221	
+Begin Validation @ Epoch 78
+Epoch Summary: 
+	Epoch test Accuracy: 35.54
+	Best test Accuracy: 35.95
+training acc: 99.926
+test_loss: 0.0229165218770504
+Begin Training Epoch 79
+Epoch [79] [390/391]	Time 0.002 (0.007)	Loss 1.1069	
+Begin Validation @ Epoch 79
+Epoch Summary: 
+	Epoch test Accuracy: 34.64
+	Best test Accuracy: 35.95
+training acc: 99.928
+test_loss: 0.023442115634679794
+Begin Training Epoch 80
+Epoch [80] [390/391]	Time 0.002 (0.006)	Loss 1.1565	
+Begin Validation @ Epoch 80
+Epoch Summary: 
+	Epoch test Accuracy: 34.92
+	Best test Accuracy: 35.95
+training acc: 99.936
+test_loss: 0.023089738562703133
+Begin Training Epoch 81
+Epoch [81] [390/391]	Time 0.003 (0.007)	Loss 1.0632	
+Begin Validation @ Epoch 81
+Epoch Summary: 
+	Epoch test Accuracy: 34.38
+	Best test Accuracy: 35.95
+training acc: 99.922
+test_loss: 0.02314898557960987
+Begin Training Epoch 82
+Epoch [82] [390/391]	Time 0.002 (0.007)	Loss 1.0974	
+Begin Validation @ Epoch 82
+Epoch Summary: 
+	Epoch test Accuracy: 34.93
+	Best test Accuracy: 35.95
+training acc: 99.936
+test_loss: 0.022935401648283005
+Begin Training Epoch 83
+Epoch [83] [390/391]	Time 0.001 (0.007)	Loss 1.0603	
+Begin Validation @ Epoch 83
+Epoch Summary: 
+	Epoch test Accuracy: 34.84
+	Best test Accuracy: 35.95
+training acc: 99.932
+test_loss: 0.023249173536896706
+Begin Training Epoch 84
+Epoch [84] [390/391]	Time 0.002 (0.007)	Loss 1.0161	
+Begin Validation @ Epoch 84
+Epoch Summary: 
+	Epoch test Accuracy: 34.68
+	Best test Accuracy: 35.95
+training acc: 99.942
+test_loss: 0.023162905126810074
+Begin Training Epoch 85
+Epoch [85] [390/391]	Time 0.002 (0.006)	Loss 1.0364	
+Begin Validation @ Epoch 85
+Epoch Summary: 
+	Epoch test Accuracy: 34.82
+	Best test Accuracy: 35.95
+training acc: 99.92
+test_loss: 0.02308940887451172
+Begin Training Epoch 86
+Epoch [86] [390/391]	Time 0.003 (0.007)	Loss 1.0304	
+Begin Validation @ Epoch 86
+Epoch Summary: 
+	Epoch test Accuracy: 34.85
+	Best test Accuracy: 35.95
+training acc: 99.876
+test_loss: 0.023150648921728134
+Begin Training Epoch 87
+Epoch [87] [390/391]	Time 0.002 (0.007)	Loss 0.9167	
+Begin Validation @ Epoch 87
+Epoch Summary: 
+	Epoch test Accuracy: 34.44
+	Best test Accuracy: 35.95
+training acc: 99.942
+test_loss: 0.023036018013954163
+Begin Training Epoch 88
+Epoch [88] [390/391]	Time 0.003 (0.006)	Loss 0.9544	
+Begin Validation @ Epoch 88
+Epoch Summary: 
+	Epoch test Accuracy: 34.66
+	Best test Accuracy: 35.95
+training acc: 99.936
+test_loss: 0.023120464757084846
+Begin Training Epoch 89
+Epoch [89] [390/391]	Time 0.002 (0.007)	Loss 1.0224	
+Begin Validation @ Epoch 89
+Epoch Summary: 
+	Epoch test Accuracy: 34.54
+	Best test Accuracy: 35.95
+training acc: 99.924
+test_loss: 0.02306409552693367
+Begin Training Epoch 90
+Epoch [90] [390/391]	Time 0.002 (0.007)	Loss 0.9995	
+Begin Validation @ Epoch 90
+Epoch Summary: 
+	Epoch test Accuracy: 34.47
+	Best test Accuracy: 35.95
+training acc: 99.938
+test_loss: 0.023157663643360138
+Begin Training Epoch 91
+Epoch [91] [390/391]	Time 0.003 (0.006)	Loss 1.0079	
+Begin Validation @ Epoch 91
+Epoch Summary: 
+	Epoch test Accuracy: 34.84
+	Best test Accuracy: 35.95
+training acc: 99.944
+test_loss: 0.02305431477725506
+Begin Training Epoch 92
+Epoch [92] [390/391]	Time 0.003 (0.005)	Loss 1.0240	
+Begin Validation @ Epoch 92
+Epoch Summary: 
+	Epoch test Accuracy: 34.95
+	Best test Accuracy: 35.95
+training acc: 99.91
+test_loss: 0.023175908252596855
+Begin Training Epoch 93
+Epoch [93] [390/391]	Time 0.002 (0.008)	Loss 1.0030	
+Begin Validation @ Epoch 93
+Epoch Summary: 
+	Epoch test Accuracy: 34.54
+	Best test Accuracy: 35.95
+training acc: 99.938
+test_loss: 0.02319469302892685
+Begin Training Epoch 94
+Epoch [94] [390/391]	Time 0.002 (0.006)	Loss 1.0205	
+Begin Validation @ Epoch 94
+Epoch Summary: 
+	Epoch test Accuracy: 35.25
+	Best test Accuracy: 35.95
+training acc: 99.928
+test_loss: 0.022894971072673798
+Begin Training Epoch 95
+Epoch [95] [390/391]	Time 0.003 (0.007)	Loss 0.9982	
+Begin Validation @ Epoch 95
+Epoch Summary: 
+	Epoch test Accuracy: 35.63
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.022901883348822594
+Begin Training Epoch 96
+Epoch [96] [390/391]	Time 0.005 (0.005)	Loss 1.1291	
+Begin Validation @ Epoch 96
+Epoch Summary: 
+	Epoch test Accuracy: 35.49
+	Best test Accuracy: 35.95
+training acc: 99.944
+test_loss: 0.022784052416682243
+Begin Training Epoch 97
+Epoch [97] [390/391]	Time 0.003 (0.007)	Loss 1.0009	
+Begin Validation @ Epoch 97
+Epoch Summary: 
+	Epoch test Accuracy: 34.73
+	Best test Accuracy: 35.95
+training acc: 99.946
+test_loss: 0.022905856370925903
+Begin Training Epoch 98
+Epoch [98] [390/391]	Time 0.002 (0.007)	Loss 1.1057	
+Begin Validation @ Epoch 98
+Epoch Summary: 
+	Epoch test Accuracy: 34.67
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.022807450965046883
+Begin Training Epoch 99
+Epoch [99] [390/391]	Time 0.003 (0.007)	Loss 0.8815	
+Begin Validation @ Epoch 99
+Epoch Summary: 
+	Epoch test Accuracy: 35.03
+	Best test Accuracy: 35.95
+training acc: 99.942
+test_loss: 0.022831788286566734
+Begin Training Epoch 100
+Epoch [100] [390/391]	Time 0.002 (0.007)	Loss 1.0468	
+Begin Validation @ Epoch 100
+Epoch Summary: 
+	Epoch test Accuracy: 33.83
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.02344375289976597
+Begin Training Epoch 101
+Epoch [101] [390/391]	Time 0.005 (0.008)	Loss 0.9550	
+Begin Validation @ Epoch 101
+Epoch Summary: 
+	Epoch test Accuracy: 34.46
+	Best test Accuracy: 35.95
+training acc: 99.918
+test_loss: 0.023019306361675262
+Begin Training Epoch 102
+Epoch [102] [390/391]	Time 0.003 (0.006)	Loss 0.9268	
+Begin Validation @ Epoch 102
+Epoch Summary: 
+	Epoch test Accuracy: 34.44
+	Best test Accuracy: 35.95
+training acc: 99.934
+test_loss: 0.023082615807652473
+Begin Training Epoch 103
+Epoch [103] [390/391]	Time 0.001 (0.006)	Loss 0.8498	
+Begin Validation @ Epoch 103
+Epoch Summary: 
+	Epoch test Accuracy: 34.36
+	Best test Accuracy: 35.95
+training acc: 99.938
+test_loss: 0.023241236805915833
+Begin Training Epoch 104
+Epoch [104] [390/391]	Time 0.002 (0.006)	Loss 1.0040	
+Begin Validation @ Epoch 104
+Epoch Summary: 
+	Epoch test Accuracy: 33.68
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.023177722468972206
+Begin Training Epoch 105
+Epoch [105] [390/391]	Time 0.003 (0.006)	Loss 0.8747	
+Begin Validation @ Epoch 105
+Epoch Summary: 
+	Epoch test Accuracy: 34.39
+	Best test Accuracy: 35.95
+training acc: 99.932
+test_loss: 0.02302910014986992
+Begin Training Epoch 106
+Epoch [106] [390/391]	Time 0.002 (0.009)	Loss 0.9355	
+Begin Validation @ Epoch 106
+Epoch Summary: 
+	Epoch test Accuracy: 34.45
+	Best test Accuracy: 35.95
+training acc: 99.936
+test_loss: 0.023119395598769188
+Begin Training Epoch 107
+Epoch [107] [390/391]	Time 0.003 (0.007)	Loss 0.9396	
+Begin Validation @ Epoch 107
+Epoch Summary: 
+	Epoch test Accuracy: 34.54
+	Best test Accuracy: 35.95
+training acc: 99.966
+test_loss: 0.02320408821105957
+Begin Training Epoch 108
+Epoch [108] [390/391]	Time 0.002 (0.007)	Loss 1.0278	
+Begin Validation @ Epoch 108
+Epoch Summary: 
+	Epoch test Accuracy: 35.14
+	Best test Accuracy: 35.95
+training acc: 99.938
+test_loss: 0.023049278184771538
+Begin Training Epoch 109
+Epoch [109] [390/391]	Time 0.002 (0.006)	Loss 0.9857	
+Begin Validation @ Epoch 109
+Epoch Summary: 
+	Epoch test Accuracy: 34.82
+	Best test Accuracy: 35.95
+training acc: 99.914
+test_loss: 0.023023823276162148
+Begin Training Epoch 110
+Epoch [110] [390/391]	Time 0.017 (0.006)	Loss 1.0624	
+Begin Validation @ Epoch 110
+Epoch Summary: 
+	Epoch test Accuracy: 34.58
+	Best test Accuracy: 35.95
+training acc: 99.942
+test_loss: 0.023159226402640343
+Begin Training Epoch 111
+Epoch [111] [390/391]	Time 0.002 (0.004)	Loss 0.9395	
+Begin Validation @ Epoch 111
+Epoch Summary: 
+	Epoch test Accuracy: 34.36
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023074770346283913
+Begin Training Epoch 112
+Epoch [112] [390/391]	Time 0.002 (0.005)	Loss 1.0122	
+Begin Validation @ Epoch 112
+Epoch Summary: 
+	Epoch test Accuracy: 34.99
+	Best test Accuracy: 35.95
+training acc: 99.928
+test_loss: 0.022940369322896004
+Begin Training Epoch 113
+Epoch [113] [390/391]	Time 0.003 (0.005)	Loss 0.9645	
+Begin Validation @ Epoch 113
+Epoch Summary: 
+	Epoch test Accuracy: 34.52
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.023116879165172577
+Begin Training Epoch 114
+Epoch [114] [390/391]	Time 0.002 (0.005)	Loss 0.9762	
+Begin Validation @ Epoch 114
+Epoch Summary: 
+	Epoch test Accuracy: 34.22
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.023112144321203232
+Begin Training Epoch 115
+Epoch [115] [390/391]	Time 0.003 (0.006)	Loss 0.8801	
+Begin Validation @ Epoch 115
+Epoch Summary: 
+	Epoch test Accuracy: 34.06
+	Best test Accuracy: 35.95
+training acc: 99.944
+test_loss: 0.02314170077443123
+Begin Training Epoch 116
+Epoch [116] [390/391]	Time 0.001 (0.006)	Loss 0.8636	
+Begin Validation @ Epoch 116
+Epoch Summary: 
+	Epoch test Accuracy: 34.01
+	Best test Accuracy: 35.95
+training acc: 99.948
+test_loss: 0.023276785388588905
+Begin Training Epoch 117
+Epoch [117] [390/391]	Time 0.003 (0.004)	Loss 0.9588	
+Begin Validation @ Epoch 117
+Epoch Summary: 
+	Epoch test Accuracy: 33.81
+	Best test Accuracy: 35.95
+training acc: 99.944
+test_loss: 0.023169299587607384
+Begin Training Epoch 118
+Epoch [118] [390/391]	Time 0.008 (0.005)	Loss 0.9966	
+Begin Validation @ Epoch 118
+Epoch Summary: 
+	Epoch test Accuracy: 33.91
+	Best test Accuracy: 35.95
+training acc: 99.934
+test_loss: 0.023115037009119987
+Begin Training Epoch 119
+Epoch [119] [390/391]	Time 0.003 (0.006)	Loss 0.9240	
+Begin Validation @ Epoch 119
+Epoch Summary: 
+	Epoch test Accuracy: 33.93
+	Best test Accuracy: 35.95
+training acc: 99.946
+test_loss: 0.023161189630627632
+Begin Training Epoch 120
+Epoch [120] [390/391]	Time 0.004 (0.007)	Loss 0.8916	
+Begin Validation @ Epoch 120
+Epoch Summary: 
+	Epoch test Accuracy: 34.68
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023159969598054886
+Begin Training Epoch 121
+Epoch [121] [390/391]	Time 0.003 (0.005)	Loss 0.9881	
+Begin Validation @ Epoch 121
+Epoch Summary: 
+	Epoch test Accuracy: 34.41
+	Best test Accuracy: 35.95
+training acc: 99.944
+test_loss: 0.023166928440332413
+Begin Training Epoch 122
+Epoch [122] [390/391]	Time 0.003 (0.005)	Loss 0.8765	
+Begin Validation @ Epoch 122
+Epoch Summary: 
+	Epoch test Accuracy: 34.13
+	Best test Accuracy: 35.95
+training acc: 99.956
+test_loss: 0.023108331486582756
+Begin Training Epoch 123
+Epoch [123] [390/391]	Time 0.003 (0.006)	Loss 0.9256	
+Begin Validation @ Epoch 123
+Epoch Summary: 
+	Epoch test Accuracy: 34.31
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023322947323322296
+Begin Training Epoch 124
+Epoch [124] [390/391]	Time 0.003 (0.006)	Loss 0.9539	
+Begin Validation @ Epoch 124
+Epoch Summary: 
+	Epoch test Accuracy: 34.15
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.023180240765213966
+Begin Training Epoch 125
+Epoch [125] [390/391]	Time 0.003 (0.006)	Loss 0.9847	
+Begin Validation @ Epoch 125
+Epoch Summary: 
+	Epoch test Accuracy: 34.33
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.023087384179234505
+Begin Training Epoch 126
+Epoch [126] [390/391]	Time 0.003 (0.006)	Loss 0.8745	
+Begin Validation @ Epoch 126
+Epoch Summary: 
+	Epoch test Accuracy: 34.19
+	Best test Accuracy: 35.95
+training acc: 99.93
+test_loss: 0.023046383634209633
+Begin Training Epoch 127
+Epoch [127] [390/391]	Time 0.002 (0.006)	Loss 0.8669	
+Begin Validation @ Epoch 127
+Epoch Summary: 
+	Epoch test Accuracy: 34.33
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.02313726767897606
+Begin Training Epoch 128
+Epoch [128] [390/391]	Time 0.002 (0.006)	Loss 0.8596	
+Begin Validation @ Epoch 128
+Epoch Summary: 
+	Epoch test Accuracy: 34.65
+	Best test Accuracy: 35.95
+training acc: 99.946
+test_loss: 0.02305823192000389
+Begin Training Epoch 129
+Epoch [129] [390/391]	Time 0.002 (0.005)	Loss 1.0268	
+Begin Validation @ Epoch 129
+Epoch Summary: 
+	Epoch test Accuracy: 34.65
+	Best test Accuracy: 35.95
+training acc: 99.968
+test_loss: 0.022946882992982864
+Begin Training Epoch 130
+Epoch [130] [390/391]	Time 0.002 (0.006)	Loss 0.8437	
+Begin Validation @ Epoch 130
+Epoch Summary: 
+	Epoch test Accuracy: 34.61
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023015525192022324
+Begin Training Epoch 131
+Epoch [131] [390/391]	Time 0.003 (0.006)	Loss 0.8760	
+Begin Validation @ Epoch 131
+Epoch Summary: 
+	Epoch test Accuracy: 34.54
+	Best test Accuracy: 35.95
+training acc: 99.946
+test_loss: 0.02311110682785511
+Begin Training Epoch 132
+Epoch [132] [390/391]	Time 0.002 (0.005)	Loss 0.7549	
+Begin Validation @ Epoch 132
+Epoch Summary: 
+	Epoch test Accuracy: 34.19
+	Best test Accuracy: 35.95
+training acc: 99.964
+test_loss: 0.023109450936317444
+Begin Training Epoch 133
+Epoch [133] [390/391]	Time 0.003 (0.006)	Loss 0.8404	
+Begin Validation @ Epoch 133
+Epoch Summary: 
+	Epoch test Accuracy: 34.17
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023035738617181778
+Begin Training Epoch 134
+Epoch [134] [390/391]	Time 0.002 (0.006)	Loss 0.9558	
+Begin Validation @ Epoch 134
+Epoch Summary: 
+	Epoch test Accuracy: 34.02
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023208901286125183
+Begin Training Epoch 135
+Epoch [135] [390/391]	Time 0.002 (0.005)	Loss 0.7900	
+Begin Validation @ Epoch 135
+Epoch Summary: 
+	Epoch test Accuracy: 34.0
+	Best test Accuracy: 35.95
+training acc: 99.956
+test_loss: 0.02323046512901783
+Begin Training Epoch 136
+Epoch [136] [390/391]	Time 0.003 (0.006)	Loss 0.8391	
+Begin Validation @ Epoch 136
+Epoch Summary: 
+	Epoch test Accuracy: 33.96
+	Best test Accuracy: 35.95
+training acc: 99.964
+test_loss: 0.023209277540445328
+Begin Training Epoch 137
+Epoch [137] [390/391]	Time 0.002 (0.004)	Loss 0.8911	
+Begin Validation @ Epoch 137
+Epoch Summary: 
+	Epoch test Accuracy: 34.06
+	Best test Accuracy: 35.95
+training acc: 99.934
+test_loss: 0.023233845829963684
+Begin Training Epoch 138
+Epoch [138] [390/391]	Time 0.002 (0.005)	Loss 0.9164	
+Begin Validation @ Epoch 138
+Epoch Summary: 
+	Epoch test Accuracy: 33.77
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023157136514782906
+Begin Training Epoch 139
+Epoch [139] [390/391]	Time 0.003 (0.005)	Loss 0.8444	
+Begin Validation @ Epoch 139
+Epoch Summary: 
+	Epoch test Accuracy: 33.97
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.023218918591737747
+Begin Training Epoch 140
+Epoch [140] [390/391]	Time 0.002 (0.005)	Loss 0.8745	
+Begin Validation @ Epoch 140
+Epoch Summary: 
+	Epoch test Accuracy: 34.14
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.0231822170317173
+Begin Training Epoch 141
+Epoch [141] [390/391]	Time 0.002 (0.005)	Loss 0.8015	
+Begin Validation @ Epoch 141
+Epoch Summary: 
+	Epoch test Accuracy: 33.52
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.02345062606036663
+Begin Training Epoch 142
+Epoch [142] [390/391]	Time 0.003 (0.005)	Loss 0.9204	
+Begin Validation @ Epoch 142
+Epoch Summary: 
+	Epoch test Accuracy: 34.27
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023099325597286224
+Begin Training Epoch 143
+Epoch [143] [390/391]	Time 0.002 (0.006)	Loss 0.8620	
+Begin Validation @ Epoch 143
+Epoch Summary: 
+	Epoch test Accuracy: 34.2
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.023169703781604767
+Begin Training Epoch 144
+Epoch [144] [390/391]	Time 0.001 (0.006)	Loss 0.9714	
+Begin Validation @ Epoch 144
+Epoch Summary: 
+	Epoch test Accuracy: 33.8
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023146560415625572
+Begin Training Epoch 145
+Epoch [145] [390/391]	Time 0.003 (0.005)	Loss 0.9548	
+Begin Validation @ Epoch 145
+Epoch Summary: 
+	Epoch test Accuracy: 33.81
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.023208266124129295
+Begin Training Epoch 146
+Epoch [146] [390/391]	Time 0.001 (0.005)	Loss 0.7855	
+Begin Validation @ Epoch 146
+Epoch Summary: 
+	Epoch test Accuracy: 34.55
+	Best test Accuracy: 35.95
+training acc: 99.954
+test_loss: 0.022978035733103752
+Begin Training Epoch 147
+Epoch [147] [390/391]	Time 0.002 (0.005)	Loss 0.9631	
+Begin Validation @ Epoch 147
+Epoch Summary: 
+	Epoch test Accuracy: 34.41
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.02299465611577034
+Begin Training Epoch 148
+Epoch [148] [390/391]	Time 0.003 (0.006)	Loss 0.8905	
+Begin Validation @ Epoch 148
+Epoch Summary: 
+	Epoch test Accuracy: 34.35
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02300470881164074
+Begin Training Epoch 149
+Epoch [149] [390/391]	Time 0.004 (0.006)	Loss 0.8228	
+Begin Validation @ Epoch 149
+Epoch Summary: 
+	Epoch test Accuracy: 34.04
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023018883541226387
+Begin Training Epoch 150
+Epoch [150] [390/391]	Time 0.003 (0.005)	Loss 0.8394	
+Begin Validation @ Epoch 150
+Epoch Summary: 
+	Epoch test Accuracy: 34.09
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023004665970802307
+Begin Training Epoch 151
+Epoch [151] [390/391]	Time 0.002 (0.006)	Loss 0.8279	
+Begin Validation @ Epoch 151
+Epoch Summary: 
+	Epoch test Accuracy: 34.19
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023043761029839516
+Begin Training Epoch 152
+Epoch [152] [390/391]	Time 0.002 (0.005)	Loss 0.9384	
+Begin Validation @ Epoch 152
+Epoch Summary: 
+	Epoch test Accuracy: 34.26
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.02291753515601158
+Begin Training Epoch 153
+Epoch [153] [390/391]	Time 0.003 (0.005)	Loss 0.8321	
+Begin Validation @ Epoch 153
+Epoch Summary: 
+	Epoch test Accuracy: 34.05
+	Best test Accuracy: 35.95
+training acc: 99.968
+test_loss: 0.0228886716067791
+Begin Training Epoch 154
+Epoch [154] [390/391]	Time 0.001 (0.005)	Loss 0.8862	
+Begin Validation @ Epoch 154
+Epoch Summary: 
+	Epoch test Accuracy: 33.74
+	Best test Accuracy: 35.95
+training acc: 99.942
+test_loss: 0.023310091346502304
+Begin Training Epoch 155
+Epoch [155] [390/391]	Time 0.003 (0.006)	Loss 0.8729	
+Begin Validation @ Epoch 155
+Epoch Summary: 
+	Epoch test Accuracy: 34.13
+	Best test Accuracy: 35.95
+training acc: 99.954
+test_loss: 0.02324782870709896
+Begin Training Epoch 156
+Epoch [156] [390/391]	Time 0.002 (0.005)	Loss 0.7804	
+Begin Validation @ Epoch 156
+Epoch Summary: 
+	Epoch test Accuracy: 33.74
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.02331630140542984
+Begin Training Epoch 157
+Epoch [157] [390/391]	Time 0.001 (0.005)	Loss 0.8183	
+Begin Validation @ Epoch 157
+Epoch Summary: 
+	Epoch test Accuracy: 33.88
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.023154357448220253
+Begin Training Epoch 158
+Epoch [158] [390/391]	Time 0.002 (0.006)	Loss 0.8711	
+Begin Validation @ Epoch 158
+Epoch Summary: 
+	Epoch test Accuracy: 33.93
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023085789754986763
+Begin Training Epoch 159
+Epoch [159] [390/391]	Time 0.002 (0.005)	Loss 0.8123	
+Begin Validation @ Epoch 159
+Epoch Summary: 
+	Epoch test Accuracy: 34.42
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02299387939274311
+Begin Training Epoch 160
+Epoch [160] [390/391]	Time 0.003 (0.006)	Loss 0.8644	
+Begin Validation @ Epoch 160
+Epoch Summary: 
+	Epoch test Accuracy: 33.61
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02327795699238777
+Begin Training Epoch 161
+Epoch [161] [390/391]	Time 0.003 (0.005)	Loss 0.8665	
+Begin Validation @ Epoch 161
+Epoch Summary: 
+	Epoch test Accuracy: 33.33
+	Best test Accuracy: 35.95
+training acc: 99.968
+test_loss: 0.023353444412350655
+Begin Training Epoch 162
+Epoch [162] [390/391]	Time 0.002 (0.005)	Loss 0.7785	
+Begin Validation @ Epoch 162
+Epoch Summary: 
+	Epoch test Accuracy: 33.81
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.023272724822163582
+Begin Training Epoch 163
+Epoch [163] [390/391]	Time 0.002 (0.005)	Loss 0.8237	
+Begin Validation @ Epoch 163
+Epoch Summary: 
+	Epoch test Accuracy: 34.14
+	Best test Accuracy: 35.95
+training acc: 99.956
+test_loss: 0.02315373718738556
+Begin Training Epoch 164
+Epoch [164] [390/391]	Time 0.002 (0.005)	Loss 0.8359	
+Begin Validation @ Epoch 164
+Epoch Summary: 
+	Epoch test Accuracy: 33.52
+	Best test Accuracy: 35.95
+training acc: 99.952
+test_loss: 0.023254022002220154
+Begin Training Epoch 165
+Epoch [165] [390/391]	Time 0.013 (0.005)	Loss 0.7905	
+Begin Validation @ Epoch 165
+Epoch Summary: 
+	Epoch test Accuracy: 34.16
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.02327193319797516
+Begin Training Epoch 166
+Epoch [166] [390/391]	Time 0.002 (0.005)	Loss 0.7844	
+Begin Validation @ Epoch 166
+Epoch Summary: 
+	Epoch test Accuracy: 34.16
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023116247728466988
+Begin Training Epoch 167
+Epoch [167] [390/391]	Time 0.002 (0.005)	Loss 0.8601	
+Begin Validation @ Epoch 167
+Epoch Summary: 
+	Epoch test Accuracy: 34.24
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023129109293222427
+Begin Training Epoch 168
+Epoch [168] [390/391]	Time 0.003 (0.005)	Loss 0.8032	
+Begin Validation @ Epoch 168
+Epoch Summary: 
+	Epoch test Accuracy: 33.46
+	Best test Accuracy: 35.95
+training acc: 99.948
+test_loss: 0.02326224371790886
+Begin Training Epoch 169
+Epoch [169] [390/391]	Time 0.002 (0.004)	Loss 0.7763	
+Begin Validation @ Epoch 169
+Epoch Summary: 
+	Epoch test Accuracy: 33.76
+	Best test Accuracy: 35.95
+training acc: 99.938
+test_loss: 0.023096168413758278
+Begin Training Epoch 170
+Epoch [170] [390/391]	Time 0.003 (0.006)	Loss 0.7299	
+Begin Validation @ Epoch 170
+Epoch Summary: 
+	Epoch test Accuracy: 33.46
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023285888135433197
+Begin Training Epoch 171
+Epoch [171] [390/391]	Time 0.001 (0.004)	Loss 0.7542	
+Begin Validation @ Epoch 171
+Epoch Summary: 
+	Epoch test Accuracy: 32.74
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.02339276857674122
+Begin Training Epoch 172
+Epoch [172] [390/391]	Time 0.003 (0.004)	Loss 0.8679	
+Begin Validation @ Epoch 172
+Epoch Summary: 
+	Epoch test Accuracy: 33.14
+	Best test Accuracy: 35.95
+training acc: 99.94
+test_loss: 0.023398971185088158
+Begin Training Epoch 173
+Epoch [173] [390/391]	Time 0.001 (0.006)	Loss 0.8541	
+Begin Validation @ Epoch 173
+Epoch Summary: 
+	Epoch test Accuracy: 33.98
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02302643470466137
+Begin Training Epoch 174
+Epoch [174] [390/391]	Time 0.003 (0.004)	Loss 0.8348	
+Begin Validation @ Epoch 174
+Epoch Summary: 
+	Epoch test Accuracy: 33.27
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023383066058158875
+Begin Training Epoch 175
+Epoch [175] [390/391]	Time 0.002 (0.006)	Loss 0.7730	
+Begin Validation @ Epoch 175
+Epoch Summary: 
+	Epoch test Accuracy: 34.07
+	Best test Accuracy: 35.95
+training acc: 99.966
+test_loss: 0.02299395762383938
+Begin Training Epoch 176
+Epoch [176] [390/391]	Time 0.002 (0.006)	Loss 0.7412	
+Begin Validation @ Epoch 176
+Epoch Summary: 
+	Epoch test Accuracy: 33.85
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.02329065650701523
+Begin Training Epoch 177
+Epoch [177] [390/391]	Time 0.002 (0.004)	Loss 0.6958	
+Begin Validation @ Epoch 177
+Epoch Summary: 
+	Epoch test Accuracy: 33.83
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023026475682854652
+Begin Training Epoch 178
+Epoch [178] [390/391]	Time 0.002 (0.006)	Loss 0.8002	
+Begin Validation @ Epoch 178
+Epoch Summary: 
+	Epoch test Accuracy: 33.56
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023243632167577744
+Begin Training Epoch 179
+Epoch [179] [390/391]	Time 0.002 (0.005)	Loss 0.9053	
+Begin Validation @ Epoch 179
+Epoch Summary: 
+	Epoch test Accuracy: 33.91
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023046400398015976
+Begin Training Epoch 180
+Epoch [180] [390/391]	Time 0.002 (0.005)	Loss 0.7081	
+Begin Validation @ Epoch 180
+Epoch Summary: 
+	Epoch test Accuracy: 33.25
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023284070193767548
+Begin Training Epoch 181
+Epoch [181] [390/391]	Time 0.001 (0.005)	Loss 0.8623	
+Begin Validation @ Epoch 181
+Epoch Summary: 
+	Epoch test Accuracy: 33.38
+	Best test Accuracy: 35.95
+training acc: 99.968
+test_loss: 0.023231184110045433
+Begin Training Epoch 182
+Epoch [182] [390/391]	Time 0.002 (0.004)	Loss 0.7768	
+Begin Validation @ Epoch 182
+Epoch Summary: 
+	Epoch test Accuracy: 34.22
+	Best test Accuracy: 35.95
+training acc: 99.964
+test_loss: 0.023032596334815025
+Begin Training Epoch 183
+Epoch [183] [390/391]	Time 0.002 (0.005)	Loss 0.8233	
+Begin Validation @ Epoch 183
+Epoch Summary: 
+	Epoch test Accuracy: 32.92
+	Best test Accuracy: 35.95
+training acc: 99.948
+test_loss: 0.023160360753536224
+Begin Training Epoch 184
+Epoch [184] [390/391]	Time 0.003 (0.005)	Loss 0.8452	
+Begin Validation @ Epoch 184
+Epoch Summary: 
+	Epoch test Accuracy: 33.26
+	Best test Accuracy: 35.95
+training acc: 99.948
+test_loss: 0.023291023448109627
+Begin Training Epoch 185
+Epoch [185] [390/391]	Time 0.002 (0.004)	Loss 0.8185	
+Begin Validation @ Epoch 185
+Epoch Summary: 
+	Epoch test Accuracy: 33.35
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023164009675383568
+Begin Training Epoch 186
+Epoch [186] [390/391]	Time 0.002 (0.005)	Loss 0.7861	
+Begin Validation @ Epoch 186
+Epoch Summary: 
+	Epoch test Accuracy: 33.8
+	Best test Accuracy: 35.95
+training acc: 99.966
+test_loss: 0.023131851106882095
+Begin Training Epoch 187
+Epoch [187] [390/391]	Time 0.004 (0.005)	Loss 0.8892	
+Begin Validation @ Epoch 187
+Epoch Summary: 
+	Epoch test Accuracy: 33.85
+	Best test Accuracy: 35.95
+training acc: 99.958
+test_loss: 0.023094449192285538
+Begin Training Epoch 188
+Epoch [188] [390/391]	Time 0.001 (0.004)	Loss 0.7685	
+Begin Validation @ Epoch 188
+Epoch Summary: 
+	Epoch test Accuracy: 33.11
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.023251481354236603
+Begin Training Epoch 189
+Epoch [189] [390/391]	Time 0.002 (0.006)	Loss 0.7983	
+Begin Validation @ Epoch 189
+Epoch Summary: 
+	Epoch test Accuracy: 33.86
+	Best test Accuracy: 35.95
+training acc: 99.95
+test_loss: 0.023202573880553246
+Begin Training Epoch 190
+Epoch [190] [390/391]	Time 0.002 (0.005)	Loss 0.7454	
+Begin Validation @ Epoch 190
+Epoch Summary: 
+	Epoch test Accuracy: 33.36
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023244887590408325
+Begin Training Epoch 191
+Epoch [191] [390/391]	Time 0.003 (0.005)	Loss 0.7703	
+Begin Validation @ Epoch 191
+Epoch Summary: 
+	Epoch test Accuracy: 33.64
+	Best test Accuracy: 35.95
+training acc: 99.964
+test_loss: 0.023015428334474564
+Begin Training Epoch 192
+Epoch [192] [390/391]	Time 0.002 (0.005)	Loss 0.7152	
+Begin Validation @ Epoch 192
+Epoch Summary: 
+	Epoch test Accuracy: 33.18
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023287460207939148
+Begin Training Epoch 193
+Epoch [193] [390/391]	Time 0.003 (0.005)	Loss 0.7916	
+Begin Validation @ Epoch 193
+Epoch Summary: 
+	Epoch test Accuracy: 33.49
+	Best test Accuracy: 35.95
+training acc: 99.966
+test_loss: 0.0231137927621603
+Begin Training Epoch 194
+Epoch [194] [390/391]	Time 0.003 (0.005)	Loss 0.7872	
+Begin Validation @ Epoch 194
+Epoch Summary: 
+	Epoch test Accuracy: 32.94
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02334187924861908
+Begin Training Epoch 195
+Epoch [195] [390/391]	Time 0.002 (0.006)	Loss 0.8251	
+Begin Validation @ Epoch 195
+Epoch Summary: 
+	Epoch test Accuracy: 33.32
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023182744160294533
+Begin Training Epoch 196
+Epoch [196] [390/391]	Time 0.003 (0.006)	Loss 0.6839	
+Begin Validation @ Epoch 196
+Epoch Summary: 
+	Epoch test Accuracy: 33.59
+	Best test Accuracy: 35.95
+training acc: 99.968
+test_loss: 0.023076508194208145
+Begin Training Epoch 197
+Epoch [197] [390/391]	Time 0.008 (0.006)	Loss 0.8100	
+Begin Validation @ Epoch 197
+Epoch Summary: 
+	Epoch test Accuracy: 33.38
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.02310655266046524
+Begin Training Epoch 198
+Epoch [198] [390/391]	Time 0.002 (0.005)	Loss 0.8128	
+Begin Validation @ Epoch 198
+Epoch Summary: 
+	Epoch test Accuracy: 33.58
+	Best test Accuracy: 35.95
+training acc: 99.966
+test_loss: 0.02324231155216694
+Begin Training Epoch 199
+Epoch [199] [390/391]	Time 0.000 (0.006)	Loss 0.7361	
+Begin Validation @ Epoch 199
+Epoch Summary: 
+	Epoch test Accuracy: 32.74
+	Best test Accuracy: 35.95
+training acc: 99.962
+test_loss: 0.023521702736616135
+Begin Training Epoch 200
+Epoch [200] [390/391]	Time 0.002 (0.006)	Loss 0.7259	
+Begin Validation @ Epoch 200
+Epoch Summary: 
+	Epoch test Accuracy: 33.7
+	Best test Accuracy: 35.95
+training acc: 99.96
+test_loss: 0.023337773978710175
+[4.139358173675537, 3.793380436401367, 3.5986818885803222, 3.4025060041809083, 3.312196991958618, 3.172796019821167, 3.062635880279541, 2.9719428133392336, 2.8006835710144045, 2.701469718017578, 2.478590425758362, 2.303394455718994, 2.178220991630554, 2.0017002585983277, 1.8061739656066895, 1.8897971627044678, 1.6955050025081635, 1.7400429396629333, 1.6190542396354675, 1.6394357675838471, 1.4326281925868989, 1.5630750692749023, 1.3615967580175399, 1.4447906861114501, 1.4223349750041963, 1.2507921384382248, 1.4195630958533287, 1.381733394804001, 1.3704710193634033, 1.351378411836624, 1.308615475549698, 1.3214353855466843, 1.3354985576820373, 1.4061463076257705, 1.3244580374073982, 1.3561906431388855, 1.3467499469923974, 1.2277813793301582, 1.2043046956682206, 1.3440521177506446, 1.2101190234947206, 1.3241555293536187, 1.3309411673164369, 1.088223197646141, 1.2737939397084712, 1.247341209192276, 1.2163915023708343, 1.2490194331741333, 1.1589027708530426, 1.1714498787903787, 1.249579807434082, 1.2094642901265622, 1.2817653949975967, 1.1154971861934662, 1.0968608770895005, 1.0969070439362525, 1.1593933527719975, 1.0587041598320008, 1.0917379505705833, 1.1406043960404395, 1.1482936191117763, 1.2615438812375068, 1.094299025540352, 1.0783999763309955, 1.0367550572913886, 1.077516845393181, 1.1773479576969146, 1.0487418941056728, 0.970359755744934, 1.1167873532128334, 1.0272057653623818, 0.9841743654179573, 0.9817042848372459, 1.069502277212143, 0.9930750744128227, 1.0104511040234565, 1.0492066017150878, 1.0221259846377373, 1.1069082546514273, 1.1565497783571481, 1.0631862050271035, 1.0974370451259614, 1.0602748609447479, 1.016121006383896, 1.036449677182436, 1.0304260375189782, 0.9166908078718186, 0.9543836649149656, 1.022357285487652, 0.9994709966015816, 1.0079101546436549, 1.0239592886590958, 1.0030181637859346, 1.0205046264505386, 0.9982346313899756, 1.1290885878014565, 1.000886128538847, 1.1057344560277462, 0.8814530123198032, 1.0467759366118907, 0.9550333599185944, 0.926776520267725, 0.8498429122066498, 1.0039673554182054, 0.8746605105119943, 0.9355371931403875, 0.9396056514334679, 1.0277798842287063, 0.9857351310777664, 1.0623686986100673, 0.9394600168943406, 1.0122063228690623, 0.9644644662714005, 0.9762363640516997, 0.880081758108139, 0.8636055270916223, 0.9587979890722036, 0.9966001914823055, 0.923980671710968, 0.8916364672279358, 0.9881059653639793, 0.876456356139183, 0.925573780579567, 0.9539193570435047, 0.9846712730434537, 0.874467378115654, 0.8669112792676688, 0.85961321996212, 1.0268303183782101, 0.8436769945964218, 0.8760428854215145, 0.7549103513860702, 0.8404451910102367, 0.9557951615667343, 0.7899505712342262, 0.839067157342434, 0.8910884865164757, 0.9164492114162445, 0.8443982720160484, 0.8744580645495653, 0.8014599492746591, 0.9203603123754263, 0.8620103288978338, 0.9714122854685784, 0.9548194748687744, 0.7855456534284353, 0.9630698640799522, 0.890513893134594, 0.8227551860186457, 0.8393656117129326, 0.8278885769844055, 0.9383669579416514, 0.8321324918556213, 0.8862101887816191, 0.872860810906887, 0.780424035193324, 0.8183420753467083, 0.8710775218009948, 0.8122540371799469, 0.8644385204577446, 0.8664680562549829, 0.7784905197525025, 0.8237387430217862, 0.8358562072819471, 0.790546723203659, 0.784376596865654, 0.8600664909243584, 0.8032163126826286, 0.7762610355088114, 0.7299158441960811, 0.7542020260953903, 0.867948977432251, 0.8540870739740133, 0.8347630485332013, 0.7730095888608695, 0.7411724749520421, 0.6958472636368871, 0.8001637297791243, 0.905325917827785, 0.7081464887359739, 0.8622632487928867, 0.7768441474634409, 0.823340577712059, 0.8452384746336937, 0.8185404457256198, 0.7861173322153091, 0.8891559396767617, 0.7684732483100891, 0.7982873692315817, 0.7454411948776245, 0.7702559229302406, 0.7151824568462372, 0.7915607715076208, 0.7871725885725022, 0.8250624912333488, 0.6838693011927605, 0.8100492506411672, 0.8127728719592094, 0.7360613821080327, 0.7258697802233696]
+[14.89, 20.07, 22.79, 25.34, 27.75, 29.58, 29.97, 31.77, 32.24, 33.12, 33.8, 34.05, 33.74, 33.77, 34.75, 33.26, 34.11, 34.71, 33.94, 34.64, 34.43, 34.1, 34.12, 34.86, 34.75, 35.07, 34.8, 34.77, 34.94, 35.0, 34.98, 35.55, 35.12, 35.09, 34.23, 34.66, 34.37, 34.89, 35.28, 35.53, 34.25, 34.89, 35.11, 35.44, 35.0, 35.59, 35.21, 34.69, 34.9, 34.96, 35.95, 35.65, 35.06, 35.3, 35.03, 35.59, 35.52, 35.62, 34.99, 35.12, 34.23, 35.08, 34.52, 34.68, 35.05, 34.86, 34.97, 35.38, 35.08, 34.35, 35.1, 34.54, 35.12, 34.74, 34.69, 34.84, 34.88, 35.54, 34.64, 34.92, 34.38, 34.93, 34.84, 34.68, 34.82, 34.85, 34.44, 34.66, 34.54, 34.47, 34.84, 34.95, 34.54, 35.25, 35.63, 35.49, 34.73, 34.67, 35.03, 33.83, 34.46, 34.44, 34.36, 33.68, 34.39, 34.45, 34.54, 35.14, 34.82, 34.58, 34.36, 34.99, 34.52, 34.22, 34.06, 34.01, 33.81, 33.91, 33.93, 34.68, 34.41, 34.13, 34.31, 34.15, 34.33, 34.19, 34.33, 34.65, 34.65, 34.61, 34.54, 34.19, 34.17, 34.02, 34.0, 33.96, 34.06, 33.77, 33.97, 34.14, 33.52, 34.27, 34.2, 33.8, 33.81, 34.55, 34.41, 34.35, 34.04, 34.09, 34.19, 34.26, 34.05, 33.74, 34.13, 33.74, 33.88, 33.93, 34.42, 33.61, 33.33, 33.81, 34.14, 33.52, 34.16, 34.16, 34.24, 33.46, 33.76, 33.46, 32.74, 33.14, 33.98, 33.27, 34.07, 33.85, 33.83, 33.56, 33.91, 33.25, 33.38, 34.22, 32.92, 33.26, 33.35, 33.8, 33.85, 33.11, 33.86, 33.36, 33.64, 33.18, 33.49, 32.94, 33.32, 33.59, 33.38, 33.58, 32.74, 33.7]
